@@ -2698,3 +2698,604 @@ LogConfig: Set CVar [[r.VRS.ContrastAdaptiveShading:1]]
 [2024.12.09-16.37.52:438][852]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 338.897522
 [2024.12.09-16.37.53:439][855]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
 [2024.12.09-16.37.53:439][855]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 339.564270, Update Interval: 334.970551
+[2024.12.09-16.43.32:223][ 35]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 678.682678
+[2024.12.09-16.43.33:223][ 38]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2024.12.09-16.43.33:223][ 38]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 679.348938, Update Interval: 347.074188
+[2024.12.09-16.44.51:630][273]LogUObjectHash: Compacting FUObjectHashTables data took   0.53ms
+[2024.12.09-16.44.51:632][273]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/NewMap' took 0.014
+[2024.12.09-16.46.02:904][487]LogAudioMixer: Warning: FMixerPlatformXAudio2: Changing default audio render device to new device: Role=Console, DeviceName=Haut-parleurs (Razer USB Sound Card), InstanceID=1
+[2024.12.09-16.46.02:908][487]LogAudioMixer: Display: StartRunningNullDevice() called, InstanceID=1
+[2024.12.09-16.46.02:908][487]LogAudioMixer: Display: FMixerNullCallback: Simulating a h/w device callback at [21ms], ThreadID=44332
+[2024.12.09-16.46.03:241][488]LogAudioMixer: Display: StopRunningNullDevice() called, InstanceID=1
+[2024.12.09-16.46.03:244][488]LogAudioMixer: Display: Successful Swap new Device is (NumChannels=2, SampleRate=48000, DeviceID={0.0.0.00000000}.{8850e3f1-8959-4d67-8a1f-b1e8ec9307b9}, Name=Haut-parleurs (Razer USB Sound Card)), Reason=FMixerPlatformXAudio2::OnDefaultRenderDeviceChanged, InstanceID=1, DurationMS=52.64
+[2024.12.09-16.46.03:244][488]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=1
+[2024.12.09-16.46.03:247][488]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=1
+[2024.12.09-16.49.25:598][ 95]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 1032.057251
+[2024.12.09-16.49.26:599][ 98]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2024.12.09-16.49.26:599][ 98]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 1032.723633, Update Interval: 355.535767
+[2024.12.09-16.53.19:279][871]Cmd: MAP REBUILD ALLVISIBLE
+[2024.12.09-16.53.19:280][871]LogEditorServer: Rebuildmap Clear paths rebuilt
+[2024.12.09-16.53.19:301][871]LogWorld: UWorld::CleanupWorld for NewMap, bSessionEnded=true, bCleanupResources=true
+[2024.12.09-16.53.19:310][871]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.12.09-16.53.19:310][871]LogWorldPartition: UWorldPartition::Uninitialize : World = /Game/NewMap.NewMap
+[2024.12.09-16.53.19:324][871]LogChaosDD: Creating Chaos Debug Draw Scene for world NewMap
+[2024.12.09-16.53.19:327][871]LogWorldPartition: ULevel::OnLevelLoaded(NewMap)(bIsOwningWorldGameWorld=0, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=1, InitializeForGame=0)
+[2024.12.09-16.53.19:327][871]LogWorldPartition: Display: WorldPartition initialize started...
+[2024.12.09-16.53.19:327][871]LogWorldPartition: UWorldPartition::Initialize : World = /Game/NewMap.NewMap, World Type = Editor, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 1, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2024.12.09-16.53.19:397][871]LogWorldPartition: Display: WorldPartition initialize took 70.441 ms (total: 685.984 ms)
+[2024.12.09-16.53.21:691][871]LogSlate: Window 'Générer les HLOD' being destroyed
+[2024.12.09-16.53.21:696][871]LogNavigationDataBuild: Display: UNavigationSystemV1::Build started...
+[2024.12.09-16.53.21:713][871]LogUObjectHash: Compacting FUObjectHashTables data took   0.53ms
+[2024.12.09-16.53.24:841][871]LogLevel: Display: Export Material TexCoord Scales took 0.102 seconds.
+[2024.12.09-16.53.24:866][871]TextureStreamingBuild: Display: Build Texture Streaming took 0.024 seconds.
+[2024.12.09-16.53.24:883][871]LogUObjectHash: Compacting FUObjectHashTables data took   0.26ms
+[2024.12.09-16.53.24:886][871]LogEditorBuildUtils: Build time 0:05
+[2024.12.09-16.53.24:987][871]LogAutomationController: Ignoring very large delta of 5.80 seconds in calls to FAutomationControllerManager::Tick() and not penalizing unresponsive tests
+[2024.12.09-16.53.27:946][152]LogShaderCompilers: Display: ================================================
+[2024.12.09-16.53.27:946][152]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2024.12.09-16.53.27:946][152]LogShaderCompilers: Display: Total job queries 11 626, among them cache hits 5 (0.04%), DDC hits 0 (0.00%), Duplicates 2 685 (23.09%)
+[2024.12.09-16.53.27:946][152]LogShaderCompilers: Display: Tracking 8 936 distinct input hashes that result in 8 439 distinct outputs (94.44%)
+[2024.12.09-16.53.27:946][152]LogShaderCompilers: Display: RAM used: 6,35 MiB of 3,20 GiB budget. Usage: 0.19%
+[2024.12.09-16.53.27:946][152]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2024.12.09-16.53.27:946][152]LogShaderCompilers: Display: Shaders Compiled: 8 936
+[2024.12.09-16.53.27:946][152]LogShaderCompilers: Display: Jobs assigned 8 936, completed 8 936 (100%)
+[2024.12.09-16.53.27:946][152]LogShaderCompilers: Display: Average time worker was idle: 10.29 s
+[2024.12.09-16.53.27:946][152]LogShaderCompilers: Display: Time job spent in pending queue: average 296.61 s, longest 609.02 s
+[2024.12.09-16.53.27:946][152]LogShaderCompilers: Display: Job execution time: average 5.71 s, max 75.52 s
+[2024.12.09-16.53.27:946][152]LogShaderCompilers: Display: Job life time (pending + execution): average 302.32 s, max 609.63
+[2024.12.09-16.53.27:946][152]LogShaderCompilers: Display: Shader code size: average 14,343 KiB, min 1,16 KiB, max 330,049 KiB
+[2024.12.09-16.53.27:946][152]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 660.21 s
+[2024.12.09-16.53.27:946][152]LogShaderCompilers: Display: Mutex wait stall in FShaderJobCache::SubmitJobs:  0.43%
+[2024.12.09-16.53.27:946][152]LogShaderCompilers: Display: Jobs were issued in 968 batches (only local compilation was used), average 9.23 jobs/batch
+[2024.12.09-16.53.27:946][152]LogShaderCompilers: Display: Average processing rate: 13.54 jobs/sec
+[2024.12.09-16.53.27:946][152]LogShaderCompilers: Display: Total thread time: 5 117,405 s
+[2024.12.09-16.53.27:946][152]LogShaderCompilers: Display: Total thread preprocess time: 139,024 s
+[2024.12.09-16.53.27:946][152]LogShaderCompilers: Display: Percentage time preprocessing: 2.72%
+[2024.12.09-16.53.27:946][152]LogShaderCompilers: Display: Effective parallelization: 7.75 (times faster than compiling all shaders on one thread). Compare with number of workers: 8
+[2024.12.09-16.53.27:946][152]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2024.12.09-16.53.27:946][152]LogShaderCompilers: Display:                                          FTSRRejectShadingCS (compiled   27 times, average 21.80 sec, max 70.61 sec, min 1.45 sec)
+[2024.12.09-16.53.27:946][152]LogShaderCompilers: Display:                                               FPathTracingRG (compiled    1 times, average 15.48 sec, max 15.48 sec, min 15.48 sec)
+[2024.12.09-16.53.27:946][152]LogShaderCompilers: Display:                      FPathTracingBuildCloudAccelerationMapCS (compiled    1 times, average 12.35 sec, max 12.35 sec, min 12.35 sec)
+[2024.12.09-16.53.27:946][152]LogShaderCompilers: Display:                                   FSSDTemporalAccumulationCS (compiled   10 times, average 8.01 sec, max 9.34 sec, min 5.30 sec)
+[2024.12.09-16.53.27:946][152]LogShaderCompilers: Display:                                 TBasePassCSFNoLightMapPolicy (compiled    2 times, average 6.32 sec, max 10.03 sec, min 2.62 sec)
+[2024.12.09-16.53.27:946][152]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2024.12.09-16.53.27:946][152]LogShaderCompilers: Display:                                             FDeferredLightPS - 13.29% of total time (compiled  454 times, average 1.50 sec, max 2.54 sec, min 1.04 sec)
+[2024.12.09-16.53.27:946][152]LogShaderCompilers: Display:                                          FTSRRejectShadingCS - 11.50% of total time (compiled   27 times, average 21.80 sec, max 70.61 sec, min 1.45 sec)
+[2024.12.09-16.53.27:946][152]LogShaderCompilers: Display:                                        FMicropolyRasterizeCS - 10.29% of total time (compiled  260 times, average 2.03 sec, max 5.09 sec, min 0.00 sec)
+[2024.12.09-16.53.27:946][152]LogShaderCompilers: Display:                              FVolumetricFogLightScatteringCS - 4.97% of total time (compiled  480 times, average 0.53 sec, max 2.96 sec, min 0.23 sec)
+[2024.12.09-16.53.27:946][152]LogShaderCompilers: Display:                                      FGenerateLightSamplesCS - 4.04% of total time (compiled   72 times, average 2.87 sec, max 7.53 sec, min 1.76 sec)
+[2024.12.09-16.53.27:946][152]LogShaderCompilers: Display: === Material stats ===
+[2024.12.09-16.53.27:946][152]LogShaderCompilers: Display: Materials Cooked:        0
+[2024.12.09-16.53.27:946][152]LogShaderCompilers: Display: Materials Translated:    130
+[2024.12.09-16.53.27:946][152]LogShaderCompilers: Display: Material Total Translate Time: 0.10 s
+[2024.12.09-16.53.27:946][152]LogShaderCompilers: Display: Material Translation Only: 0.04 s (42%)
+[2024.12.09-16.53.27:946][152]LogShaderCompilers: Display: Material DDC Serialization Only: 0.00 s (0%)
+[2024.12.09-16.53.27:946][152]LogShaderCompilers: Display: Material Cache Hits: 0 (0%)
+[2024.12.09-16.53.27:946][152]LogShaderCompilers: Display: ================================================
+[2024.12.09-16.54.42:941][538]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Engine/BasicShapes/Cube.Cube
+[2024.12.09-16.54.42:941][538]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Engine/BasicShapes/Cube.Cube
+[2024.12.09-16.54.42:942][538]LogActorFactory: Actor Factory spawned StaticMesh /Engine/BasicShapes/Cube.Cube as actor: StaticMeshActor /Game/NewMap.NewMap:PersistentLevel.StaticMeshActor_0
+[2024.12.09-16.54.42:962][538]LogActorFactory: Actor Factory spawned StaticMesh /Engine/BasicShapes/Cube.Cube as actor: StaticMeshActor /Game/NewMap.NewMap:PersistentLevel.StaticMeshActor_0
+[2024.12.09-16.54.44:051][637]LogUObjectHash: Compacting FUObjectHashTables data took   0.77ms
+[2024.12.09-16.54.44:055][637]LogEditorActor: Deleted 0 Actors (0.055 secs)
+[2024.12.09-16.54.44:065][637]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Engine/BasicShapes/Cube.Cube
+[2024.12.09-16.54.44:066][637]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Engine/BasicShapes/Cube.Cube
+[2024.12.09-16.54.44:079][637]LogActorFactory: Actor Factory spawned StaticMesh /Engine/BasicShapes/Cube.Cube as actor: StaticMeshActor /Game/NewMap.NewMap:PersistentLevel.StaticMeshActor_UAID_D85ED32009A0453702_1296384719
+[2024.12.09-16.54.44:080][637]LogActorFactory: Actor Factory spawned StaticMesh /Engine/BasicShapes/Cube.Cube as actor: StaticMeshActor /Game/NewMap.NewMap:PersistentLevel.StaticMeshActor_UAID_D85ED32009A0453702_1296384719
+[2024.12.09-16.55.08:001][216]LogSlate: Took 0.000196 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2024.12.09-16.55.09:962][284]LogSlate: Window 'Choisir la classe parente' being destroyed
+[2024.12.09-16.55.11:932][284]LogSlate: Window 'Créer une classe de blueprint vierge' being destroyed
+[2024.12.09-16.55.12:101][284]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprints/NewBlueprint.NewBlueprint
+[2024.12.09-16.55.12:107][284]LogChaosDD: Creating Chaos Debug Draw Scene for world World_2
+[2024.12.09-16.55.12:314][284]LogStreaming: Display: FlushAsyncLoading(638): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.09-16.55.13:501][284]LogStaticMesh: Display: Génération de maillage statique PhAT_FloorBox (estimation de la mémoire requise : 0.024887 Mo)…
+[2024.12.09-16.55.13:502][284]LogStaticMesh: Built static mesh [0.00s] /Engine/EditorMeshes/PhAT_FloorBox.PhAT_FloorBox
+[2024.12.09-16.55.14:123][284]LogAutomationController: Ignoring very large delta of 5.53 seconds in calls to FAutomationControllerManager::Tick() and not penalizing unresponsive tests
+[2024.12.09-16.55.26:262][151]LogSlate: Took 0.010781 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2024.12.09-16.55.31:007][520]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 1397.463257
+[2024.12.09-16.55.31:166][534]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2024.12.09-16.55.31:166][534]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 1397.609253, Update Interval: 349.923401
+[2024.12.09-16.55.36:178][ 24]LogSlate: Window 'NewBlueprint' being destroyed
+[2024.12.09-16.55.36:182][ 24]LogSlate: Window 'NewBlueprint' being destroyed
+[2024.12.09-16.55.36:185][ 24]LogWorld: UWorld::CleanupWorld for World_2, bSessionEnded=true, bCleanupResources=true
+[2024.12.09-16.55.36:185][ 24]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.12.09-16.55.36:360][ 24]LogUObjectHash: Compacting FUObjectHashTables data took   1.28ms
+[2024.12.09-16.55.48:748][289]Cmd: DELETE
+[2024.12.09-16.55.48:748][289]Cmd: ACTOR DELETE
+[2024.12.09-16.55.49:710][289]LogEditorActor: Deleted Actor: StaticMeshActor
+[2024.12.09-16.55.49:737][289]LogUObjectHash: Compacting FUObjectHashTables data took   1.20ms
+[2024.12.09-16.55.49:740][289]LogEditorActor: Deleted 1 Actors (0.072 secs)
+[2024.12.09-16.55.52:480][550]LogUObjectHash: Compacting FUObjectHashTables data took   0.56ms
+[2024.12.09-16.55.55:870][550]LogSlate: Window 'Enregistrer le contenu' being destroyed
+[2024.12.09-16.55.55:882][550]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.12.09-16.55.55:949][550]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/NewMap" FILE="C:/Users/olbou/Documents/Unreal Projects/AmongUsLike/Content/NewMap.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2024.12.09-16.55.55:995][550]LogUObjectHash: Compacting FUObjectHashTables data took   0.55ms
+[2024.12.09-16.55.55:999][550]LogSavePackage: Moving output files for package: /Game/NewMap
+[2024.12.09-16.55.56:000][550]LogSavePackage: Moving 'C:/Users/olbou/Documents/Unreal Projects/AmongUsLike/Saved/NewMap5165CD56482B4A93639A3EBABF813B5B.tmp' to 'C:/Users/olbou/Documents/Unreal Projects/AmongUsLike/Content/NewMap.umap'
+[2024.12.09-16.55.56:014][550]Message dialog closed, result: Ok, title: Extraction impossible depuis le contrôle de révision !, text: Les ressources suivantes n'ont pas pu être extraites du contrôle de révision :
+/Game/__ExternalActors__/NewMap/B/BV/STFWH78SWHO1BT3JB2S9GT
+/Game/__ExternalActors__/NewMap/C/ZU/N5WZ7N63Q2DBG05ZT1Y94V
+/Game/__ExternalActors__/NewMap/B/09/QCU8K2REN785K74C0JAHL8
+/Game/__ExternalActors__/NewMap/5/RD/PZ5XNZU157V0GDAJAXC2DQ
+/Game/__ExternalActors__/NewMap/B/PP/V9CAJRQOOCARULA8KSKFKF
+/Game/__ExternalActors__/NewMap/A/DN/K5XHNT2TJPQ6HM9TN0HG8R
+/Game/__ExternalActors__/NewMap/E/HU/QBOG0EUDUJ3I7CKDLU6SM5
+/Game/__ExternalActors__/NewMap/D/BG/Y8EZ2AXLMEN39WTAPXB6VM
+/Game/__ExternalActors__/NewMap/9/RS/RPVI13LNVTY93V3EQ1Y4FV
+/Game/__ExternalActors__/NewMap/B/P6/UDWQC9DWW7DL22CPJ4RVSI
+/Game/__ExternalActors__/NewMap/0/4M/EE3LUXOWULAYGXN1IPS4S2
+/Game/__ExternalActors__/NewMap/6/HN/Y3GF0HWTXA7DHH1FL3IF9R
+/Game/__ExternalActors__/NewMap/6/1C/XX81YC0HUFD6L3IX7RWMS0
+/Game/__ExternalActors__/NewMap/8/6Q/5E0J4DYSYB0DUPM0H3UFMJ
+/Game/__ExternalActors__/NewMap/E/X4/I3YAKOIE9OZW8RGU76MLDU
+/Game/__ExternalActors__/NewMap/5/M2/8TXEZSVIN8XJXFAAPYJ9PF
+/Game/__ExternalActors__/NewMap/C/MZ/99H285CLZ96HCTKT3S7S79
+/Game/__ExternalActors__/NewMap/7/YH/J8JQXJ67F9KX47CCDA8ZMF
+/Game/__ExternalActors__/NewMap/B/OZ/7UWDO77CF7TNVQ9BB75XCF
+/Game/__ExternalActors__/NewMap/B/AQ/TIHXLB5639NV4RM260YDTW
+/Game/__ExternalActors__/NewMap/9/X7/GV76BBB2V0EFHV7ELK9A0Y
+/Game/__ExternalActors__/NewMap/0/BQ/39OTWHVDSI751PAH6731ID
+/Game/__ExternalActors__/NewMap/9/53/CHPLQ79FFGJWC3VACZJA90
+/Game/__ExternalActors__/NewMap/2/4X/X4NPSX8ZUWI1DPH52YEUUP
+/Game/__ExternalActors__/NewMap/E/SK/3B5158OKASMIKGFDZC9KRF
+/Game/__ExternalActors__/NewMap/6/8V/MRZ7RQN5KANFM03I7EKRCC
+/Game/__ExternalActors__/NewMap/7/ZT/XQN8LZWIDWMWIMOBUZOJDH
+/Game/__ExternalActors__/NewMap/9/TG/JJD8SHJCMNFNMC34COATAM
+/Game/__ExternalActors__/NewMap/D/T6/ELJ3HI994B42IQIWQEZNGD
+/Game/__ExternalActors__/NewMap/4/Q7/HYGURXU7M62N8WAUIXLWPQ
+/Game/__ExternalActors__/NewMap/B/OQ/FH4UWQ2MQA5KPUZVXS23LJ
+/Game/__ExternalActors__/NewMap/5/DJ/PLU0RE738EMG7CF7VC8D9S
+/Game/__ExternalActors__/NewMap/1/DX/KXAGD7OP6IEQ3K8LWI86RL
+/Game/__ExternalActors__/NewMap/5/Q5/9034HM4Y3YU11DE4XNPRA9
+/Game/__ExternalActors__/NewMap/1/R1/OHRQN7RF5THM8Z6O6262I4
+/Game/__ExternalActors__/NewMap/6/GW/TAVO56E9B1HVH1F45RLBIA
+/Game/__ExternalActors__/NewMap/1/8Q/VXH4MI02ODW8DKNLA2MOK3
+/Game/__ExternalActors__/NewMap/7/8U/4ND4ZK6J06I5L4DPSTPYW9
+/Game/__ExternalActors__/NewMap/4/TV/0XXSVY1Y0D2HIHA43BVMPH
+/Game/__ExternalActors__/NewMap/2/3T/CK3DVSRDA9WTQU5TC2XO2V
+/Game/__ExternalActors__/NewMap/7/BH/JV2GOVBPB8GZ9MQUICHC9S
+/Game/__ExternalActors__/NewMap/6/AA/NURB0U7U9ZV4H4LX7FT8T2
+/Game/__ExternalActors__/NewMap/8/PW/B3NPG0KFON6BVW5ECZJSUI
+/Game/__ExternalActors__/NewMap/0/S7/BULBFMUS7ADZJMH54QGDK9
+/Game/__ExternalActors__/NewMap/6/UX/1HONC7HVU91I909A4N80W2
+/Game/__ExternalActors__/NewMap/A/R1/6S23OQXPMF10HYXLB9OEIP
+/Game/__ExternalActors__/NewMap/C/Y6/L8FAOYPHJNQSTCW3XMMSJT
+/Game/__ExternalActors__/NewMap/0/GP/29WASR1BMNC6IXHW8I5KZ8
+/Game/__ExternalActors__/NewMap/A/6Q/T187Z8E2C6CPJLXCH06KRJ
+/Game/__ExternalActors__/NewMap/1/YN/85792LT2Y93I704I1JYP1K
+/Game/__ExternalActors__/NewMap/0/0E/E7UFHHQZ7B8TLAL6Y74JRC
+/Game/__ExternalActors__/NewMap/4/OT/Y23P0KHN1XII71UX7D1H8Q
+/Game/__ExternalActors__/NewMap/3/AW/90QVEWVNXY6N07CS9SHQPM
+/Game/__ExternalActors__/NewMap/3/QY/FL16ITLR22643N9B35THAR
+/Game/__ExternalActors__/NewMap/4/D8/YMDE4WERKLNXIT8TVTH5OW
+/Game/__ExternalActors__/NewMap/D/WK/NERX0MWYRICL228ZB8J0QW
+/Game/__ExternalActors__/NewMap/3/6N/VZU403KFJ6UJQ2M3VY6736
+/Game/__ExternalActors__/NewMap/3/DX/JANFZ62JMG0U1Z3UNCQVKV
+/Game/__ExternalActors__/NewMap/A/36/SPYD0PSGU4M3NK7DI5RDRM
+/Game/__ExternalActors__/NewMap/C/H2/M58JIDBQC2JEOWYFQ17JSY
+/Game/__ExternalActors__/NewMap/8/ED/4G06FUR85LXRX1UCMOAFBE
+/Game/__ExternalActors__/NewMap/8/FF/4NBZKC5PVQODH9SVSYPY1E
+/Game/__ExternalActors__/NewMap/8/KQ/APFM7ONOEVP1TBHZZ5VTDA
+/Game/__ExternalActors__/NewMap/0/2Y/UYA7A5HTQTJSRWJ4MK2WT6
+/Game/__ExternalActors__/NewMap/4/YX/P5W82JF51T6EA7NHV5ZL68
+[2024.12.09-16.55.56:014][550]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.12.09-16.55.56:046][550]LogUObjectHash: Compacting FUObjectHashTables data took   0.54ms
+[2024.12.09-16.55.56:068][550]LogUObjectHash: Compacting FUObjectHashTables data took   0.52ms
+[2024.12.09-16.55.56:091][550]LogUObjectHash: Compacting FUObjectHashTables data took   0.69ms
+[2024.12.09-16.55.56:113][550]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/NewMap/B/BV/STFWH78SWHO1BT3JB2S9GT
+[2024.12.09-16.55.56:113][550]LogSavePackage: Moving 'C:/Users/olbou/Documents/Unreal Projects/AmongUsLike/Saved/STFWH78SWHO1BT3JB2S9GT9C3CE9184A289AAC136B689915C53692.tmp' to 'C:/Users/olbou/Documents/Unreal Projects/AmongUsLike/Content/__ExternalActors__/NewMap/B/BV/STFWH78SWHO1BT3JB2S9GT.uasset'
+[2024.12.09-16.55.56:129][550]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/NewMap/C/ZU/N5WZ7N63Q2DBG05ZT1Y94V
+[2024.12.09-16.55.56:129][550]LogSavePackage: Moving 'C:/Users/olbou/Documents/Unreal Projects/AmongUsLike/Saved/N5WZ7N63Q2DBG05ZT1Y94V087C47734D601661C737A7ACF02E7432.tmp' to 'C:/Users/olbou/Documents/Unreal Projects/AmongUsLike/Content/__ExternalActors__/NewMap/C/ZU/N5WZ7N63Q2DBG05ZT1Y94V.uasset'
+[2024.12.09-16.55.56:145][550]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/NewMap/B/09/QCU8K2REN785K74C0JAHL8
+[2024.12.09-16.55.56:146][550]LogSavePackage: Moving 'C:/Users/olbou/Documents/Unreal Projects/AmongUsLike/Saved/QCU8K2REN785K74C0JAHL856D85704479F5C03E047B59CC534D33C.tmp' to 'C:/Users/olbou/Documents/Unreal Projects/AmongUsLike/Content/__ExternalActors__/NewMap/B/09/QCU8K2REN785K74C0JAHL8.uasset'
+[2024.12.09-16.55.56:161][550]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/NewMap/5/RD/PZ5XNZU157V0GDAJAXC2DQ
+[2024.12.09-16.55.56:161][550]LogSavePackage: Moving 'C:/Users/olbou/Documents/Unreal Projects/AmongUsLike/Saved/PZ5XNZU157V0GDAJAXC2DQ354D3B3844259A66F9BAF18BC6E9272A.tmp' to 'C:/Users/olbou/Documents/Unreal Projects/AmongUsLike/Content/__ExternalActors__/NewMap/5/RD/PZ5XNZU157V0GDAJAXC2DQ.uasset'
+[2024.12.09-16.55.56:183][550]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/NewMap/B/PP/V9CAJRQOOCARULA8KSKFKF
+[2024.12.09-16.55.56:183][550]LogSavePackage: Moving 'C:/Users/olbou/Documents/Unreal Projects/AmongUsLike/Saved/V9CAJRQOOCARULA8KSKFKF010B8DFD4D0625B740D2559A7D838DEB.tmp' to 'C:/Users/olbou/Documents/Unreal Projects/AmongUsLike/Content/__ExternalActors__/NewMap/B/PP/V9CAJRQOOCARULA8KSKFKF.uasset'
+[2024.12.09-16.55.56:198][550]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/NewMap/A/DN/K5XHNT2TJPQ6HM9TN0HG8R
+[2024.12.09-16.55.56:198][550]LogSavePackage: Moving 'C:/Users/olbou/Documents/Unreal Projects/AmongUsLike/Saved/K5XHNT2TJPQ6HM9TN0HG8R7B01241B4D7CCEEE828F8BA624B8E09F.tmp' to 'C:/Users/olbou/Documents/Unreal Projects/AmongUsLike/Content/__ExternalActors__/NewMap/A/DN/K5XHNT2TJPQ6HM9TN0HG8R.uasset'
+[2024.12.09-16.55.56:219][550]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/NewMap/E/HU/QBOG0EUDUJ3I7CKDLU6SM5
+[2024.12.09-16.55.56:220][550]LogSavePackage: Moving 'C:/Users/olbou/Documents/Unreal Projects/AmongUsLike/Saved/QBOG0EUDUJ3I7CKDLU6SM550F923C847DEF410745B5790EA97776D.tmp' to 'C:/Users/olbou/Documents/Unreal Projects/AmongUsLike/Content/__ExternalActors__/NewMap/E/HU/QBOG0EUDUJ3I7CKDLU6SM5.uasset'
+[2024.12.09-16.55.56:241][550]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/NewMap/D/BG/Y8EZ2AXLMEN39WTAPXB6VM
+[2024.12.09-16.55.56:241][550]LogSavePackage: Moving 'C:/Users/olbou/Documents/Unreal Projects/AmongUsLike/Saved/Y8EZ2AXLMEN39WTAPXB6VM652A1066435EB2AE6E9F60AC3E7E6502.tmp' to 'C:/Users/olbou/Documents/Unreal Projects/AmongUsLike/Content/__ExternalActors__/NewMap/D/BG/Y8EZ2AXLMEN39WTAPXB6VM.uasset'
+[2024.12.09-16.55.56:262][550]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/NewMap/9/RS/RPVI13LNVTY93V3EQ1Y4FV
+[2024.12.09-16.55.56:263][550]LogSavePackage: Moving 'C:/Users/olbou/Documents/Unreal Projects/AmongUsLike/Saved/RPVI13LNVTY93V3EQ1Y4FVDC02FECA4A713475AF72DCB1F572F6FD.tmp' to 'C:/Users/olbou/Documents/Unreal Projects/AmongUsLike/Content/__ExternalActors__/NewMap/9/RS/RPVI13LNVTY93V3EQ1Y4FV.uasset'
+[2024.12.09-16.55.56:282][550]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/NewMap/B/P6/UDWQC9DWW7DL22CPJ4RVSI
+[2024.12.09-16.55.56:283][550]LogSavePackage: Moving 'C:/Users/olbou/Documents/Unreal Projects/AmongUsLike/Saved/UDWQC9DWW7DL22CPJ4RVSICE4851DA42B0FFC1E0ABF29777EA3542.tmp' to 'C:/Users/olbou/Documents/Unreal Projects/AmongUsLike/Content/__ExternalActors__/NewMap/B/P6/UDWQC9DWW7DL22CPJ4RVSI.uasset'
+[2024.12.09-16.55.56:304][550]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/NewMap/0/4M/EE3LUXOWULAYGXN1IPS4S2
+[2024.12.09-16.55.56:304][550]LogSavePackage: Moving 'C:/Users/olbou/Documents/Unreal Projects/AmongUsLike/Saved/EE3LUXOWULAYGXN1IPS4S2402E225347562B3AFD73B5B4E6CBD3D7.tmp' to 'C:/Users/olbou/Documents/Unreal Projects/AmongUsLike/Content/__ExternalActors__/NewMap/0/4M/EE3LUXOWULAYGXN1IPS4S2.uasset'
+[2024.12.09-16.55.56:326][550]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/NewMap/6/HN/Y3GF0HWTXA7DHH1FL3IF9R
+[2024.12.09-16.55.56:326][550]LogSavePackage: Moving 'C:/Users/olbou/Documents/Unreal Projects/AmongUsLike/Saved/Y3GF0HWTXA7DHH1FL3IF9R9DA6ED364DDFB331509EAAB43E8605D6.tmp' to 'C:/Users/olbou/Documents/Unreal Projects/AmongUsLike/Content/__ExternalActors__/NewMap/6/HN/Y3GF0HWTXA7DHH1FL3IF9R.uasset'
+[2024.12.09-16.55.56:347][550]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/NewMap/6/1C/XX81YC0HUFD6L3IX7RWMS0
+[2024.12.09-16.55.56:347][550]LogSavePackage: Moving 'C:/Users/olbou/Documents/Unreal Projects/AmongUsLike/Saved/XX81YC0HUFD6L3IX7RWMS08E0A74844153BE0F835A39B5396B2BB1.tmp' to 'C:/Users/olbou/Documents/Unreal Projects/AmongUsLike/Content/__ExternalActors__/NewMap/6/1C/XX81YC0HUFD6L3IX7RWMS0.uasset'
+[2024.12.09-16.55.56:369][550]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/NewMap/8/6Q/5E0J4DYSYB0DUPM0H3UFMJ
+[2024.12.09-16.55.56:370][550]LogSavePackage: Moving 'C:/Users/olbou/Documents/Unreal Projects/AmongUsLike/Saved/5E0J4DYSYB0DUPM0H3UFMJF06B68F64347B942DF3061BA22AA0406.tmp' to 'C:/Users/olbou/Documents/Unreal Projects/AmongUsLike/Content/__ExternalActors__/NewMap/8/6Q/5E0J4DYSYB0DUPM0H3UFMJ.uasset'
+[2024.12.09-16.55.56:392][550]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/NewMap/E/X4/I3YAKOIE9OZW8RGU76MLDU
+[2024.12.09-16.55.56:393][550]LogSavePackage: Moving 'C:/Users/olbou/Documents/Unreal Projects/AmongUsLike/Saved/I3YAKOIE9OZW8RGU76MLDUC018495241390AE2E5FA36884A90E924.tmp' to 'C:/Users/olbou/Documents/Unreal Projects/AmongUsLike/Content/__ExternalActors__/NewMap/E/X4/I3YAKOIE9OZW8RGU76MLDU.uasset'
+[2024.12.09-16.55.56:414][550]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/NewMap/5/M2/8TXEZSVIN8XJXFAAPYJ9PF
+[2024.12.09-16.55.56:414][550]LogSavePackage: Moving 'C:/Users/olbou/Documents/Unreal Projects/AmongUsLike/Saved/8TXEZSVIN8XJXFAAPYJ9PF2FF2D6FB4733AE25D4F9148E02270746.tmp' to 'C:/Users/olbou/Documents/Unreal Projects/AmongUsLike/Content/__ExternalActors__/NewMap/5/M2/8TXEZSVIN8XJXFAAPYJ9PF.uasset'
+[2024.12.09-16.55.56:436][550]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/NewMap/C/MZ/99H285CLZ96HCTKT3S7S79
+[2024.12.09-16.55.56:437][550]LogSavePackage: Moving 'C:/Users/olbou/Documents/Unreal Projects/AmongUsLike/Saved/99H285CLZ96HCTKT3S7S7930ABFAFC4D6E30F0CFDA18877CC860AF.tmp' to 'C:/Users/olbou/Documents/Unreal Projects/AmongUsLike/Content/__ExternalActors__/NewMap/C/MZ/99H285CLZ96HCTKT3S7S79.uasset'
+[2024.12.09-16.55.56:458][550]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/NewMap/7/YH/J8JQXJ67F9KX47CCDA8ZMF
+[2024.12.09-16.55.56:459][550]LogSavePackage: Moving 'C:/Users/olbou/Documents/Unreal Projects/AmongUsLike/Saved/J8JQXJ67F9KX47CCDA8ZMF5B1CEC654F8C6972DB4B1B82C9BC2C05.tmp' to 'C:/Users/olbou/Documents/Unreal Projects/AmongUsLike/Content/__ExternalActors__/NewMap/7/YH/J8JQXJ67F9KX47CCDA8ZMF.uasset'
+[2024.12.09-16.55.56:483][550]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/NewMap/B/OZ/7UWDO77CF7TNVQ9BB75XCF
+[2024.12.09-16.55.56:483][550]LogSavePackage: Moving 'C:/Users/olbou/Documents/Unreal Projects/AmongUsLike/Saved/7UWDO77CF7TNVQ9BB75XCF593D8C344C71075EAC2DC9AEC6A4558A.tmp' to 'C:/Users/olbou/Documents/Unreal Projects/AmongUsLike/Content/__ExternalActors__/NewMap/B/OZ/7UWDO77CF7TNVQ9BB75XCF.uasset'
+[2024.12.09-16.55.56:507][550]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/NewMap/B/AQ/TIHXLB5639NV4RM260YDTW
+[2024.12.09-16.55.56:508][550]LogSavePackage: Moving 'C:/Users/olbou/Documents/Unreal Projects/AmongUsLike/Saved/TIHXLB5639NV4RM260YDTW443AFAE4407E0D94EAD24DA4C9E4CF33.tmp' to 'C:/Users/olbou/Documents/Unreal Projects/AmongUsLike/Content/__ExternalActors__/NewMap/B/AQ/TIHXLB5639NV4RM260YDTW.uasset'
+[2024.12.09-16.55.56:530][550]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/NewMap/9/X7/GV76BBB2V0EFHV7ELK9A0Y
+[2024.12.09-16.55.56:531][550]LogSavePackage: Moving 'C:/Users/olbou/Documents/Unreal Projects/AmongUsLike/Saved/GV76BBB2V0EFHV7ELK9A0Y70C94B82471C11F318088B8F2C460175.tmp' to 'C:/Users/olbou/Documents/Unreal Projects/AmongUsLike/Content/__ExternalActors__/NewMap/9/X7/GV76BBB2V0EFHV7ELK9A0Y.uasset'
+[2024.12.09-16.55.56:551][550]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/NewMap/0/BQ/39OTWHVDSI751PAH6731ID
+[2024.12.09-16.55.56:552][550]LogSavePackage: Moving 'C:/Users/olbou/Documents/Unreal Projects/AmongUsLike/Saved/39OTWHVDSI751PAH6731ID932D556B47B1D86AB74DC0A663192A40.tmp' to 'C:/Users/olbou/Documents/Unreal Projects/AmongUsLike/Content/__ExternalActors__/NewMap/0/BQ/39OTWHVDSI751PAH6731ID.uasset'
+[2024.12.09-16.55.56:572][550]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/NewMap/9/53/CHPLQ79FFGJWC3VACZJA90
+[2024.12.09-16.55.56:573][550]LogSavePackage: Moving 'C:/Users/olbou/Documents/Unreal Projects/AmongUsLike/Saved/CHPLQ79FFGJWC3VACZJA9090FE9B2C4F7D350CE9E27587D98DCEB9.tmp' to 'C:/Users/olbou/Documents/Unreal Projects/AmongUsLike/Content/__ExternalActors__/NewMap/9/53/CHPLQ79FFGJWC3VACZJA90.uasset'
+[2024.12.09-16.55.56:594][550]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/NewMap/2/4X/X4NPSX8ZUWI1DPH52YEUUP
+[2024.12.09-16.55.56:595][550]LogSavePackage: Moving 'C:/Users/olbou/Documents/Unreal Projects/AmongUsLike/Saved/X4NPSX8ZUWI1DPH52YEUUPACED09C74B5E1CB87B28A287D884D5A1.tmp' to 'C:/Users/olbou/Documents/Unreal Projects/AmongUsLike/Content/__ExternalActors__/NewMap/2/4X/X4NPSX8ZUWI1DPH52YEUUP.uasset'
+[2024.12.09-16.55.56:617][550]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/NewMap/E/SK/3B5158OKASMIKGFDZC9KRF
+[2024.12.09-16.55.56:618][550]LogSavePackage: Moving 'C:/Users/olbou/Documents/Unreal Projects/AmongUsLike/Saved/3B5158OKASMIKGFDZC9KRF4BAF51394638D729A8D019A13921DFEF.tmp' to 'C:/Users/olbou/Documents/Unreal Projects/AmongUsLike/Content/__ExternalActors__/NewMap/E/SK/3B5158OKASMIKGFDZC9KRF.uasset'
+[2024.12.09-16.55.56:638][550]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/NewMap/6/8V/MRZ7RQN5KANFM03I7EKRCC
+[2024.12.09-16.55.56:638][550]LogSavePackage: Moving 'C:/Users/olbou/Documents/Unreal Projects/AmongUsLike/Saved/MRZ7RQN5KANFM03I7EKRCC0ABDC9A345621ABD943257B259DF10F7.tmp' to 'C:/Users/olbou/Documents/Unreal Projects/AmongUsLike/Content/__ExternalActors__/NewMap/6/8V/MRZ7RQN5KANFM03I7EKRCC.uasset'
+[2024.12.09-16.55.56:659][550]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/NewMap/7/ZT/XQN8LZWIDWMWIMOBUZOJDH
+[2024.12.09-16.55.56:660][550]LogSavePackage: Moving 'C:/Users/olbou/Documents/Unreal Projects/AmongUsLike/Saved/XQN8LZWIDWMWIMOBUZOJDHA629A8B8489A54EF4C357E8025BF5C02.tmp' to 'C:/Users/olbou/Documents/Unreal Projects/AmongUsLike/Content/__ExternalActors__/NewMap/7/ZT/XQN8LZWIDWMWIMOBUZOJDH.uasset'
+[2024.12.09-16.55.56:681][550]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/NewMap/9/TG/JJD8SHJCMNFNMC34COATAM
+[2024.12.09-16.55.56:681][550]LogSavePackage: Moving 'C:/Users/olbou/Documents/Unreal Projects/AmongUsLike/Saved/JJD8SHJCMNFNMC34COATAMCDDBB765482B647451CA3A8B42646ACA.tmp' to 'C:/Users/olbou/Documents/Unreal Projects/AmongUsLike/Content/__ExternalActors__/NewMap/9/TG/JJD8SHJCMNFNMC34COATAM.uasset'
+[2024.12.09-16.55.56:704][550]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/NewMap/D/T6/ELJ3HI994B42IQIWQEZNGD
+[2024.12.09-16.55.56:705][550]LogSavePackage: Moving 'C:/Users/olbou/Documents/Unreal Projects/AmongUsLike/Saved/ELJ3HI994B42IQIWQEZNGDC3716EB64951BFC2B58D3497EAD3BECE.tmp' to 'C:/Users/olbou/Documents/Unreal Projects/AmongUsLike/Content/__ExternalActors__/NewMap/D/T6/ELJ3HI994B42IQIWQEZNGD.uasset'
+[2024.12.09-16.55.56:728][550]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/NewMap/4/Q7/HYGURXU7M62N8WAUIXLWPQ
+[2024.12.09-16.55.56:729][550]LogSavePackage: Moving 'C:/Users/olbou/Documents/Unreal Projects/AmongUsLike/Saved/HYGURXU7M62N8WAUIXLWPQ26755C1D42BE71A3BB4692A90A6BC053.tmp' to 'C:/Users/olbou/Documents/Unreal Projects/AmongUsLike/Content/__ExternalActors__/NewMap/4/Q7/HYGURXU7M62N8WAUIXLWPQ.uasset'
+[2024.12.09-16.55.56:750][550]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/NewMap/B/OQ/FH4UWQ2MQA5KPUZVXS23LJ
+[2024.12.09-16.55.56:750][550]LogSavePackage: Moving 'C:/Users/olbou/Documents/Unreal Projects/AmongUsLike/Saved/FH4UWQ2MQA5KPUZVXS23LJA4C396C641BC264AB29778AEE3F15352.tmp' to 'C:/Users/olbou/Documents/Unreal Projects/AmongUsLike/Content/__ExternalActors__/NewMap/B/OQ/FH4UWQ2MQA5KPUZVXS23LJ.uasset'
+[2024.12.09-16.55.56:773][550]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/NewMap/5/DJ/PLU0RE738EMG7CF7VC8D9S
+[2024.12.09-16.55.56:774][550]LogSavePackage: Moving 'C:/Users/olbou/Documents/Unreal Projects/AmongUsLike/Saved/PLU0RE738EMG7CF7VC8D9S002BF31C48556AFD8E9EB0B04BD47B7E.tmp' to 'C:/Users/olbou/Documents/Unreal Projects/AmongUsLike/Content/__ExternalActors__/NewMap/5/DJ/PLU0RE738EMG7CF7VC8D9S.uasset'
+[2024.12.09-16.55.56:795][550]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/NewMap/1/DX/KXAGD7OP6IEQ3K8LWI86RL
+[2024.12.09-16.55.56:795][550]LogSavePackage: Moving 'C:/Users/olbou/Documents/Unreal Projects/AmongUsLike/Saved/KXAGD7OP6IEQ3K8LWI86RLB5D1B3334DEC8467C2CA25B2D931CD4B.tmp' to 'C:/Users/olbou/Documents/Unreal Projects/AmongUsLike/Content/__ExternalActors__/NewMap/1/DX/KXAGD7OP6IEQ3K8LWI86RL.uasset'
+[2024.12.09-16.55.56:815][550]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/NewMap/5/Q5/9034HM4Y3YU11DE4XNPRA9
+[2024.12.09-16.55.56:816][550]LogSavePackage: Moving 'C:/Users/olbou/Documents/Unreal Projects/AmongUsLike/Saved/9034HM4Y3YU11DE4XNPRA959612D364DEAF611D62C088A6DB4C01B.tmp' to 'C:/Users/olbou/Documents/Unreal Projects/AmongUsLike/Content/__ExternalActors__/NewMap/5/Q5/9034HM4Y3YU11DE4XNPRA9.uasset'
+[2024.12.09-16.55.56:837][550]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/NewMap/1/R1/OHRQN7RF5THM8Z6O6262I4
+[2024.12.09-16.55.56:837][550]LogSavePackage: Moving 'C:/Users/olbou/Documents/Unreal Projects/AmongUsLike/Saved/OHRQN7RF5THM8Z6O6262I4A38C641D4377C2FFB66B92B7D7183E61.tmp' to 'C:/Users/olbou/Documents/Unreal Projects/AmongUsLike/Content/__ExternalActors__/NewMap/1/R1/OHRQN7RF5THM8Z6O6262I4.uasset'
+[2024.12.09-16.55.56:858][550]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/NewMap/6/GW/TAVO56E9B1HVH1F45RLBIA
+[2024.12.09-16.55.56:859][550]LogSavePackage: Moving 'C:/Users/olbou/Documents/Unreal Projects/AmongUsLike/Saved/TAVO56E9B1HVH1F45RLBIA34AD7C1E4DF6D6106BFA2188CAFD1ECE.tmp' to 'C:/Users/olbou/Documents/Unreal Projects/AmongUsLike/Content/__ExternalActors__/NewMap/6/GW/TAVO56E9B1HVH1F45RLBIA.uasset'
+[2024.12.09-16.55.56:879][550]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/NewMap/1/8Q/VXH4MI02ODW8DKNLA2MOK3
+[2024.12.09-16.55.56:880][550]LogSavePackage: Moving 'C:/Users/olbou/Documents/Unreal Projects/AmongUsLike/Saved/VXH4MI02ODW8DKNLA2MOK3A6C9BA5443035C6DBA66E3A50B9138E6.tmp' to 'C:/Users/olbou/Documents/Unreal Projects/AmongUsLike/Content/__ExternalActors__/NewMap/1/8Q/VXH4MI02ODW8DKNLA2MOK3.uasset'
+[2024.12.09-16.55.56:901][550]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/NewMap/7/8U/4ND4ZK6J06I5L4DPSTPYW9
+[2024.12.09-16.55.56:902][550]LogSavePackage: Moving 'C:/Users/olbou/Documents/Unreal Projects/AmongUsLike/Saved/4ND4ZK6J06I5L4DPSTPYW96A9655F745540F2C7718999CB91A6B47.tmp' to 'C:/Users/olbou/Documents/Unreal Projects/AmongUsLike/Content/__ExternalActors__/NewMap/7/8U/4ND4ZK6J06I5L4DPSTPYW9.uasset'
+[2024.12.09-16.55.56:924][550]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/NewMap/4/TV/0XXSVY1Y0D2HIHA43BVMPH
+[2024.12.09-16.55.56:924][550]LogSavePackage: Moving 'C:/Users/olbou/Documents/Unreal Projects/AmongUsLike/Saved/0XXSVY1Y0D2HIHA43BVMPH5435271D4D921FE3B22E63A327E3A000.tmp' to 'C:/Users/olbou/Documents/Unreal Projects/AmongUsLike/Content/__ExternalActors__/NewMap/4/TV/0XXSVY1Y0D2HIHA43BVMPH.uasset'
+[2024.12.09-16.55.56:945][550]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/NewMap/2/3T/CK3DVSRDA9WTQU5TC2XO2V
+[2024.12.09-16.55.56:946][550]LogSavePackage: Moving 'C:/Users/olbou/Documents/Unreal Projects/AmongUsLike/Saved/CK3DVSRDA9WTQU5TC2XO2V4DC3512C4EB346FEFFF4508BE464D1BF.tmp' to 'C:/Users/olbou/Documents/Unreal Projects/AmongUsLike/Content/__ExternalActors__/NewMap/2/3T/CK3DVSRDA9WTQU5TC2XO2V.uasset'
+[2024.12.09-16.55.56:967][550]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/NewMap/7/BH/JV2GOVBPB8GZ9MQUICHC9S
+[2024.12.09-16.55.56:968][550]LogSavePackage: Moving 'C:/Users/olbou/Documents/Unreal Projects/AmongUsLike/Saved/JV2GOVBPB8GZ9MQUICHC9S7D7634D64A50079C270EF38890E14CA2.tmp' to 'C:/Users/olbou/Documents/Unreal Projects/AmongUsLike/Content/__ExternalActors__/NewMap/7/BH/JV2GOVBPB8GZ9MQUICHC9S.uasset'
+[2024.12.09-16.55.56:989][550]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/NewMap/6/AA/NURB0U7U9ZV4H4LX7FT8T2
+[2024.12.09-16.55.56:989][550]LogSavePackage: Moving 'C:/Users/olbou/Documents/Unreal Projects/AmongUsLike/Saved/NURB0U7U9ZV4H4LX7FT8T2B4D726E84BF315C62C0D51907FE40A17.tmp' to 'C:/Users/olbou/Documents/Unreal Projects/AmongUsLike/Content/__ExternalActors__/NewMap/6/AA/NURB0U7U9ZV4H4LX7FT8T2.uasset'
+[2024.12.09-16.55.57:014][550]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/NewMap/8/PW/B3NPG0KFON6BVW5ECZJSUI
+[2024.12.09-16.55.57:015][550]LogSavePackage: Moving 'C:/Users/olbou/Documents/Unreal Projects/AmongUsLike/Saved/B3NPG0KFON6BVW5ECZJSUIA01AF51E46EED119A33D09B7D6C18CF0.tmp' to 'C:/Users/olbou/Documents/Unreal Projects/AmongUsLike/Content/__ExternalActors__/NewMap/8/PW/B3NPG0KFON6BVW5ECZJSUI.uasset'
+[2024.12.09-16.55.57:036][550]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/NewMap/0/S7/BULBFMUS7ADZJMH54QGDK9
+[2024.12.09-16.55.57:036][550]LogSavePackage: Moving 'C:/Users/olbou/Documents/Unreal Projects/AmongUsLike/Saved/BULBFMUS7ADZJMH54QGDK9CBFD16824763E72AA52CE7AA5EEF9BFC.tmp' to 'C:/Users/olbou/Documents/Unreal Projects/AmongUsLike/Content/__ExternalActors__/NewMap/0/S7/BULBFMUS7ADZJMH54QGDK9.uasset'
+[2024.12.09-16.55.57:057][550]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/NewMap/6/UX/1HONC7HVU91I909A4N80W2
+[2024.12.09-16.55.57:058][550]LogSavePackage: Moving 'C:/Users/olbou/Documents/Unreal Projects/AmongUsLike/Saved/1HONC7HVU91I909A4N80W2A3306E4B472EECD65C0C1685FAC9922D.tmp' to 'C:/Users/olbou/Documents/Unreal Projects/AmongUsLike/Content/__ExternalActors__/NewMap/6/UX/1HONC7HVU91I909A4N80W2.uasset'
+[2024.12.09-16.55.57:081][550]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/NewMap/A/R1/6S23OQXPMF10HYXLB9OEIP
+[2024.12.09-16.55.57:082][550]LogSavePackage: Moving 'C:/Users/olbou/Documents/Unreal Projects/AmongUsLike/Saved/6S23OQXPMF10HYXLB9OEIPFCC0FEFD44BED7B6954847A3582195AF.tmp' to 'C:/Users/olbou/Documents/Unreal Projects/AmongUsLike/Content/__ExternalActors__/NewMap/A/R1/6S23OQXPMF10HYXLB9OEIP.uasset'
+[2024.12.09-16.55.57:104][550]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/NewMap/C/Y6/L8FAOYPHJNQSTCW3XMMSJT
+[2024.12.09-16.55.57:104][550]LogSavePackage: Moving 'C:/Users/olbou/Documents/Unreal Projects/AmongUsLike/Saved/L8FAOYPHJNQSTCW3XMMSJT375B35784AB7ED9D44F3F7A505AE19B6.tmp' to 'C:/Users/olbou/Documents/Unreal Projects/AmongUsLike/Content/__ExternalActors__/NewMap/C/Y6/L8FAOYPHJNQSTCW3XMMSJT.uasset'
+[2024.12.09-16.55.57:128][550]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/NewMap/0/GP/29WASR1BMNC6IXHW8I5KZ8
+[2024.12.09-16.55.57:129][550]LogSavePackage: Moving 'C:/Users/olbou/Documents/Unreal Projects/AmongUsLike/Saved/29WASR1BMNC6IXHW8I5KZ8FB4472954924C629727F59B556B57872.tmp' to 'C:/Users/olbou/Documents/Unreal Projects/AmongUsLike/Content/__ExternalActors__/NewMap/0/GP/29WASR1BMNC6IXHW8I5KZ8.uasset'
+[2024.12.09-16.55.57:149][550]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/NewMap/A/6Q/T187Z8E2C6CPJLXCH06KRJ
+[2024.12.09-16.55.57:150][550]LogSavePackage: Moving 'C:/Users/olbou/Documents/Unreal Projects/AmongUsLike/Saved/T187Z8E2C6CPJLXCH06KRJECD9F493421E6C5E20987682327A728D.tmp' to 'C:/Users/olbou/Documents/Unreal Projects/AmongUsLike/Content/__ExternalActors__/NewMap/A/6Q/T187Z8E2C6CPJLXCH06KRJ.uasset'
+[2024.12.09-16.55.57:171][550]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/NewMap/1/YN/85792LT2Y93I704I1JYP1K
+[2024.12.09-16.55.57:171][550]LogSavePackage: Moving 'C:/Users/olbou/Documents/Unreal Projects/AmongUsLike/Saved/85792LT2Y93I704I1JYP1KE2C40750455A1D3AE12246A5F18A997A.tmp' to 'C:/Users/olbou/Documents/Unreal Projects/AmongUsLike/Content/__ExternalActors__/NewMap/1/YN/85792LT2Y93I704I1JYP1K.uasset'
+[2024.12.09-16.55.57:193][550]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/NewMap/0/0E/E7UFHHQZ7B8TLAL6Y74JRC
+[2024.12.09-16.55.57:194][550]LogSavePackage: Moving 'C:/Users/olbou/Documents/Unreal Projects/AmongUsLike/Saved/E7UFHHQZ7B8TLAL6Y74JRC355692E94755EF33C8F002A3F4C633AD.tmp' to 'C:/Users/olbou/Documents/Unreal Projects/AmongUsLike/Content/__ExternalActors__/NewMap/0/0E/E7UFHHQZ7B8TLAL6Y74JRC.uasset'
+[2024.12.09-16.55.57:217][550]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/NewMap/4/OT/Y23P0KHN1XII71UX7D1H8Q
+[2024.12.09-16.55.57:218][550]LogSavePackage: Moving 'C:/Users/olbou/Documents/Unreal Projects/AmongUsLike/Saved/Y23P0KHN1XII71UX7D1H8QC61C3AC04A884341D0FAFCA17A0C2398.tmp' to 'C:/Users/olbou/Documents/Unreal Projects/AmongUsLike/Content/__ExternalActors__/NewMap/4/OT/Y23P0KHN1XII71UX7D1H8Q.uasset'
+[2024.12.09-16.55.57:239][550]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/NewMap/3/AW/90QVEWVNXY6N07CS9SHQPM
+[2024.12.09-16.55.57:240][550]LogSavePackage: Moving 'C:/Users/olbou/Documents/Unreal Projects/AmongUsLike/Saved/90QVEWVNXY6N07CS9SHQPM7392CBF24BB5ADA9E196E6BE4A3CFCCC.tmp' to 'C:/Users/olbou/Documents/Unreal Projects/AmongUsLike/Content/__ExternalActors__/NewMap/3/AW/90QVEWVNXY6N07CS9SHQPM.uasset'
+[2024.12.09-16.55.57:262][550]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/NewMap/3/QY/FL16ITLR22643N9B35THAR
+[2024.12.09-16.55.57:262][550]LogSavePackage: Moving 'C:/Users/olbou/Documents/Unreal Projects/AmongUsLike/Saved/FL16ITLR22643N9B35THAR3D3221154B45B377457688A75337882F.tmp' to 'C:/Users/olbou/Documents/Unreal Projects/AmongUsLike/Content/__ExternalActors__/NewMap/3/QY/FL16ITLR22643N9B35THAR.uasset'
+[2024.12.09-16.55.57:285][550]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/NewMap/4/D8/YMDE4WERKLNXIT8TVTH5OW
+[2024.12.09-16.55.57:285][550]LogSavePackage: Moving 'C:/Users/olbou/Documents/Unreal Projects/AmongUsLike/Saved/YMDE4WERKLNXIT8TVTH5OW3C25A3A6421B4399F46BBD80EE35ADB2.tmp' to 'C:/Users/olbou/Documents/Unreal Projects/AmongUsLike/Content/__ExternalActors__/NewMap/4/D8/YMDE4WERKLNXIT8TVTH5OW.uasset'
+[2024.12.09-16.55.57:305][550]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/NewMap/D/WK/NERX0MWYRICL228ZB8J0QW
+[2024.12.09-16.55.57:306][550]LogSavePackage: Moving 'C:/Users/olbou/Documents/Unreal Projects/AmongUsLike/Saved/NERX0MWYRICL228ZB8J0QW514EC1954F92A0D15A14F8B6D8ECC1A8.tmp' to 'C:/Users/olbou/Documents/Unreal Projects/AmongUsLike/Content/__ExternalActors__/NewMap/D/WK/NERX0MWYRICL228ZB8J0QW.uasset'
+[2024.12.09-16.55.57:328][550]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/NewMap/3/6N/VZU403KFJ6UJQ2M3VY6736
+[2024.12.09-16.55.57:328][550]LogSavePackage: Moving 'C:/Users/olbou/Documents/Unreal Projects/AmongUsLike/Saved/VZU403KFJ6UJQ2M3VY673615B6395F42E6B24C6ADF3FBDABD2BEB8.tmp' to 'C:/Users/olbou/Documents/Unreal Projects/AmongUsLike/Content/__ExternalActors__/NewMap/3/6N/VZU403KFJ6UJQ2M3VY6736.uasset'
+[2024.12.09-16.55.57:349][550]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/NewMap/3/DX/JANFZ62JMG0U1Z3UNCQVKV
+[2024.12.09-16.55.57:350][550]LogSavePackage: Moving 'C:/Users/olbou/Documents/Unreal Projects/AmongUsLike/Saved/JANFZ62JMG0U1Z3UNCQVKVEECAC1D1451DC5D179B966BDB1F5C652.tmp' to 'C:/Users/olbou/Documents/Unreal Projects/AmongUsLike/Content/__ExternalActors__/NewMap/3/DX/JANFZ62JMG0U1Z3UNCQVKV.uasset'
+[2024.12.09-16.55.57:371][550]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/NewMap/A/36/SPYD0PSGU4M3NK7DI5RDRM
+[2024.12.09-16.55.57:371][550]LogSavePackage: Moving 'C:/Users/olbou/Documents/Unreal Projects/AmongUsLike/Saved/SPYD0PSGU4M3NK7DI5RDRMC58A5BF14CD53C1A272D199835BAB323.tmp' to 'C:/Users/olbou/Documents/Unreal Projects/AmongUsLike/Content/__ExternalActors__/NewMap/A/36/SPYD0PSGU4M3NK7DI5RDRM.uasset'
+[2024.12.09-16.55.57:392][550]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/NewMap/C/H2/M58JIDBQC2JEOWYFQ17JSY
+[2024.12.09-16.55.57:393][550]LogSavePackage: Moving 'C:/Users/olbou/Documents/Unreal Projects/AmongUsLike/Saved/M58JIDBQC2JEOWYFQ17JSY8E6BF37B4EAD0D1A773307B39B88B826.tmp' to 'C:/Users/olbou/Documents/Unreal Projects/AmongUsLike/Content/__ExternalActors__/NewMap/C/H2/M58JIDBQC2JEOWYFQ17JSY.uasset'
+[2024.12.09-16.55.57:414][550]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/NewMap/8/ED/4G06FUR85LXRX1UCMOAFBE
+[2024.12.09-16.55.57:415][550]LogSavePackage: Moving 'C:/Users/olbou/Documents/Unreal Projects/AmongUsLike/Saved/4G06FUR85LXRX1UCMOAFBE47F0C33343A2F6A3E570FC8127EEF8CE.tmp' to 'C:/Users/olbou/Documents/Unreal Projects/AmongUsLike/Content/__ExternalActors__/NewMap/8/ED/4G06FUR85LXRX1UCMOAFBE.uasset'
+[2024.12.09-16.55.57:436][550]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/NewMap/8/FF/4NBZKC5PVQODH9SVSYPY1E
+[2024.12.09-16.55.57:436][550]LogSavePackage: Moving 'C:/Users/olbou/Documents/Unreal Projects/AmongUsLike/Saved/4NBZKC5PVQODH9SVSYPY1ED3F2EE9E4A4DE9505A4A1BA596B8DD74.tmp' to 'C:/Users/olbou/Documents/Unreal Projects/AmongUsLike/Content/__ExternalActors__/NewMap/8/FF/4NBZKC5PVQODH9SVSYPY1E.uasset'
+[2024.12.09-16.55.57:457][550]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/NewMap/8/KQ/APFM7ONOEVP1TBHZZ5VTDA
+[2024.12.09-16.55.57:458][550]LogSavePackage: Moving 'C:/Users/olbou/Documents/Unreal Projects/AmongUsLike/Saved/APFM7ONOEVP1TBHZZ5VTDAE97AFF2647B72E6EB5445286E8211EDE.tmp' to 'C:/Users/olbou/Documents/Unreal Projects/AmongUsLike/Content/__ExternalActors__/NewMap/8/KQ/APFM7ONOEVP1TBHZZ5VTDA.uasset'
+[2024.12.09-16.55.57:479][550]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/NewMap/0/2Y/UYA7A5HTQTJSRWJ4MK2WT6
+[2024.12.09-16.55.57:479][550]LogSavePackage: Moving 'C:/Users/olbou/Documents/Unreal Projects/AmongUsLike/Saved/UYA7A5HTQTJSRWJ4MK2WT65A7142744296257A225CB1BCCE1FAD54.tmp' to 'C:/Users/olbou/Documents/Unreal Projects/AmongUsLike/Content/__ExternalActors__/NewMap/0/2Y/UYA7A5HTQTJSRWJ4MK2WT6.uasset'
+[2024.12.09-16.55.57:480][550]LogFileHelpers: InternalPromptForCheckoutAndSave took 1.46 sec (total: 4.74 sec)
+[2024.12.09-16.55.57:481][550]Message dialog closed, result: Ok, title: Extraction impossible depuis le contrôle de révision !, text: Les ressources suivantes n'ont pas pu être extraites du contrôle de révision :
+/Game/__ExternalActors__/NewMap/B/BV/STFWH78SWHO1BT3JB2S9GT
+/Game/__ExternalActors__/NewMap/C/ZU/N5WZ7N63Q2DBG05ZT1Y94V
+/Game/__ExternalActors__/NewMap/B/09/QCU8K2REN785K74C0JAHL8
+/Game/__ExternalActors__/NewMap/5/RD/PZ5XNZU157V0GDAJAXC2DQ
+/Game/__ExternalActors__/NewMap/B/PP/V9CAJRQOOCARULA8KSKFKF
+/Game/__ExternalActors__/NewMap/A/DN/K5XHNT2TJPQ6HM9TN0HG8R
+/Game/__ExternalActors__/NewMap/E/HU/QBOG0EUDUJ3I7CKDLU6SM5
+/Game/__ExternalActors__/NewMap/D/BG/Y8EZ2AXLMEN39WTAPXB6VM
+/Game/__ExternalActors__/NewMap/9/RS/RPVI13LNVTY93V3EQ1Y4FV
+/Game/__ExternalActors__/NewMap/B/P6/UDWQC9DWW7DL22CPJ4RVSI
+/Game/__ExternalActors__/NewMap/0/4M/EE3LUXOWULAYGXN1IPS4S2
+/Game/__ExternalActors__/NewMap/6/HN/Y3GF0HWTXA7DHH1FL3IF9R
+/Game/__ExternalActors__/NewMap/6/1C/XX81YC0HUFD6L3IX7RWMS0
+/Game/__ExternalActors__/NewMap/8/6Q/5E0J4DYSYB0DUPM0H3UFMJ
+/Game/__ExternalActors__/NewMap/E/X4/I3YAKOIE9OZW8RGU76MLDU
+/Game/__ExternalActors__/NewMap/5/M2/8TXEZSVIN8XJXFAAPYJ9PF
+/Game/__ExternalActors__/NewMap/C/MZ/99H285CLZ96HCTKT3S7S79
+/Game/__ExternalActors__/NewMap/7/YH/J8JQXJ67F9KX47CCDA8ZMF
+/Game/__ExternalActors__/NewMap/B/OZ/7UWDO77CF7TNVQ9BB75XCF
+/Game/__ExternalActors__/NewMap/B/AQ/TIHXLB5639NV4RM260YDTW
+/Game/__ExternalActors__/NewMap/9/X7/GV76BBB2V0EFHV7ELK9A0Y
+/Game/__ExternalActors__/NewMap/0/BQ/39OTWHVDSI751PAH6731ID
+/Game/__ExternalActors__/NewMap/9/53/CHPLQ79FFGJWC3VACZJA90
+/Game/__ExternalActors__/NewMap/2/4X/X4NPSX8ZUWI1DPH52YEUUP
+/Game/__ExternalActors__/NewMap/E/SK/3B5158OKASMIKGFDZC9KRF
+/Game/__ExternalActors__/NewMap/6/8V/MRZ7RQN5KANFM03I7EKRCC
+/Game/__ExternalActors__/NewMap/7/ZT/XQN8LZWIDWMWIMOBUZOJDH
+/Game/__ExternalActors__/NewMap/9/TG/JJD8SHJCMNFNMC34COATAM
+/Game/__ExternalActors__/NewMap/D/T6/ELJ3HI994B42IQIWQEZNGD
+/Game/__ExternalActors__/NewMap/4/Q7/HYGURXU7M62N8WAUIXLWPQ
+/Game/__ExternalActors__/NewMap/B/OQ/FH4UWQ2MQA5KPUZVXS23LJ
+/Game/__ExternalActors__/NewMap/5/DJ/PLU0RE738EMG7CF7VC8D9S
+/Game/__ExternalActors__/NewMap/1/DX/KXAGD7OP6IEQ3K8LWI86RL
+/Game/__ExternalActors__/NewMap/5/Q5/9034HM4Y3YU11DE4XNPRA9
+/Game/__ExternalActors__/NewMap/1/R1/OHRQN7RF5THM8Z6O6262I4
+/Game/__ExternalActors__/NewMap/6/GW/TAVO56E9B1HVH1F45RLBIA
+/Game/__ExternalActors__/NewMap/1/8Q/VXH4MI02ODW8DKNLA2MOK3
+/Game/__ExternalActors__/NewMap/7/8U/4ND4ZK6J06I5L4DPSTPYW9
+/Game/__ExternalActors__/NewMap/4/TV/0XXSVY1Y0D2HIHA43BVMPH
+/Game/__ExternalActors__/NewMap/2/3T/CK3DVSRDA9WTQU5TC2XO2V
+/Game/__ExternalActors__/NewMap/7/BH/JV2GOVBPB8GZ9MQUICHC9S
+/Game/__ExternalActors__/NewMap/6/AA/NURB0U7U9ZV4H4LX7FT8T2
+/Game/__ExternalActors__/NewMap/8/PW/B3NPG0KFON6BVW5ECZJSUI
+/Game/__ExternalActors__/NewMap/0/S7/BULBFMUS7ADZJMH54QGDK9
+/Game/__ExternalActors__/NewMap/6/UX/1HONC7HVU91I909A4N80W2
+/Game/__ExternalActors__/NewMap/A/R1/6S23OQXPMF10HYXLB9OEIP
+/Game/__ExternalActors__/NewMap/C/Y6/L8FAOYPHJNQSTCW3XMMSJT
+/Game/__ExternalActors__/NewMap/0/GP/29WASR1BMNC6IXHW8I5KZ8
+/Game/__ExternalActors__/NewMap/A/6Q/T187Z8E2C6CPJLXCH06KRJ
+/Game/__ExternalActors__/NewMap/1/YN/85792LT2Y93I704I1JYP1K
+/Game/__ExternalActors__/NewMap/0/0E/E7UFHHQZ7B8TLAL6Y74JRC
+/Game/__ExternalActors__/NewMap/4/OT/Y23P0KHN1XII71UX7D1H8Q
+/Game/__ExternalActors__/NewMap/3/AW/90QVEWVNXY6N07CS9SHQPM
+/Game/__ExternalActors__/NewMap/3/QY/FL16ITLR22643N9B35THAR
+/Game/__ExternalActors__/NewMap/4/D8/YMDE4WERKLNXIT8TVTH5OW
+/Game/__ExternalActors__/NewMap/D/WK/NERX0MWYRICL228ZB8J0QW
+/Game/__ExternalActors__/NewMap/3/6N/VZU403KFJ6UJQ2M3VY6736
+/Game/__ExternalActors__/NewMap/3/DX/JANFZ62JMG0U1Z3UNCQVKV
+/Game/__ExternalActors__/NewMap/A/36/SPYD0PSGU4M3NK7DI5RDRM
+/Game/__ExternalActors__/NewMap/C/H2/M58JIDBQC2JEOWYFQ17JSY
+/Game/__ExternalActors__/NewMap/8/ED/4G06FUR85LXRX1UCMOAFBE
+/Game/__ExternalActors__/NewMap/8/FF/4NBZKC5PVQODH9SVSYPY1E
+/Game/__ExternalActors__/NewMap/8/KQ/APFM7ONOEVP1TBHZZ5VTDA
+/Game/__ExternalActors__/NewMap/0/2Y/UYA7A5HTQTJSRWJ4MK2WT6
+[2024.12.09-16.55.57:482][550]LogFileHelpers: Saving map 'NewMap' took 1.533
+[2024.12.09-16.55.57:502][550]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/NewMap/D/BG/Y8EZ2AXLMEN39WTAPXB6VM
+[2024.12.09-16.55.57:502][550]LogSavePackage: Moving 'C:/Users/olbou/Documents/Unreal Projects/AmongUsLike/Saved/Y8EZ2AXLMEN39WTAPXB6VMEE82266B487F2653A22F749B5427DAB6.tmp' to 'C:/Users/olbou/Documents/Unreal Projects/AmongUsLike/Content/__ExternalActors__/NewMap/D/BG/Y8EZ2AXLMEN39WTAPXB6VM.uasset'
+[2024.12.09-16.55.57:524][550]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/NewMap/9/RS/RPVI13LNVTY93V3EQ1Y4FV
+[2024.12.09-16.55.57:525][550]LogSavePackage: Moving 'C:/Users/olbou/Documents/Unreal Projects/AmongUsLike/Saved/RPVI13LNVTY93V3EQ1Y4FVC1483EB944043192B71A39BC6FDFE323.tmp' to 'C:/Users/olbou/Documents/Unreal Projects/AmongUsLike/Content/__ExternalActors__/NewMap/9/RS/RPVI13LNVTY93V3EQ1Y4FV.uasset'
+[2024.12.09-16.55.57:546][550]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/NewMap/6/HN/Y3GF0HWTXA7DHH1FL3IF9R
+[2024.12.09-16.55.57:546][550]LogSavePackage: Moving 'C:/Users/olbou/Documents/Unreal Projects/AmongUsLike/Saved/Y3GF0HWTXA7DHH1FL3IF9R280FCEA0468669A0F7B074B6F45E81F4.tmp' to 'C:/Users/olbou/Documents/Unreal Projects/AmongUsLike/Content/__ExternalActors__/NewMap/6/HN/Y3GF0HWTXA7DHH1FL3IF9R.uasset'
+[2024.12.09-16.55.57:567][550]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/NewMap/6/1C/XX81YC0HUFD6L3IX7RWMS0
+[2024.12.09-16.55.57:567][550]LogSavePackage: Moving 'C:/Users/olbou/Documents/Unreal Projects/AmongUsLike/Saved/XX81YC0HUFD6L3IX7RWMS0792CB0FD4B9FEE8CE8043783EFDFFFB3.tmp' to 'C:/Users/olbou/Documents/Unreal Projects/AmongUsLike/Content/__ExternalActors__/NewMap/6/1C/XX81YC0HUFD6L3IX7RWMS0.uasset'
+[2024.12.09-16.55.57:587][550]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/NewMap/1/8Q/VXH4MI02ODW8DKNLA2MOK3
+[2024.12.09-16.55.57:588][550]LogSavePackage: Moving 'C:/Users/olbou/Documents/Unreal Projects/AmongUsLike/Saved/VXH4MI02ODW8DKNLA2MOK3C630583B480479352E7BC2842EA9A27E.tmp' to 'C:/Users/olbou/Documents/Unreal Projects/AmongUsLike/Content/__ExternalActors__/NewMap/1/8Q/VXH4MI02ODW8DKNLA2MOK3.uasset'
+[2024.12.09-16.55.57:609][550]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/NewMap/7/8U/4ND4ZK6J06I5L4DPSTPYW9
+[2024.12.09-16.55.57:610][550]LogSavePackage: Moving 'C:/Users/olbou/Documents/Unreal Projects/AmongUsLike/Saved/4ND4ZK6J06I5L4DPSTPYW987DA0AEB4D03517BF058C891EF48D995.tmp' to 'C:/Users/olbou/Documents/Unreal Projects/AmongUsLike/Content/__ExternalActors__/NewMap/7/8U/4ND4ZK6J06I5L4DPSTPYW9.uasset'
+[2024.12.09-16.55.57:630][550]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/NewMap/4/TV/0XXSVY1Y0D2HIHA43BVMPH
+[2024.12.09-16.55.57:630][550]LogSavePackage: Moving 'C:/Users/olbou/Documents/Unreal Projects/AmongUsLike/Saved/0XXSVY1Y0D2HIHA43BVMPH02ADEBEE4B69D73B590926B8B9F80FA3.tmp' to 'C:/Users/olbou/Documents/Unreal Projects/AmongUsLike/Content/__ExternalActors__/NewMap/4/TV/0XXSVY1Y0D2HIHA43BVMPH.uasset'
+[2024.12.09-16.55.57:651][550]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/NewMap/8/PW/B3NPG0KFON6BVW5ECZJSUI
+[2024.12.09-16.55.57:652][550]LogSavePackage: Moving 'C:/Users/olbou/Documents/Unreal Projects/AmongUsLike/Saved/B3NPG0KFON6BVW5ECZJSUI680A211E413F478BDB5968A42A1DCE2C.tmp' to 'C:/Users/olbou/Documents/Unreal Projects/AmongUsLike/Content/__ExternalActors__/NewMap/8/PW/B3NPG0KFON6BVW5ECZJSUI.uasset'
+[2024.12.09-16.55.57:672][550]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/NewMap/B/P6/UDWQC9DWW7DL22CPJ4RVSI
+[2024.12.09-16.55.57:673][550]LogSavePackage: Moving 'C:/Users/olbou/Documents/Unreal Projects/AmongUsLike/Saved/UDWQC9DWW7DL22CPJ4RVSI2FD8913940B27D821895A1B84E836A69.tmp' to 'C:/Users/olbou/Documents/Unreal Projects/AmongUsLike/Content/__ExternalActors__/NewMap/B/P6/UDWQC9DWW7DL22CPJ4RVSI.uasset'
+[2024.12.09-16.55.57:693][550]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/NewMap/0/4M/EE3LUXOWULAYGXN1IPS4S2
+[2024.12.09-16.55.57:694][550]LogSavePackage: Moving 'C:/Users/olbou/Documents/Unreal Projects/AmongUsLike/Saved/EE3LUXOWULAYGXN1IPS4S204F9CFBB4145BA4F8E5D729B1B81D901.tmp' to 'C:/Users/olbou/Documents/Unreal Projects/AmongUsLike/Content/__ExternalActors__/NewMap/0/4M/EE3LUXOWULAYGXN1IPS4S2.uasset'
+[2024.12.09-16.55.57:716][550]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/NewMap/8/6Q/5E0J4DYSYB0DUPM0H3UFMJ
+[2024.12.09-16.55.57:717][550]LogSavePackage: Moving 'C:/Users/olbou/Documents/Unreal Projects/AmongUsLike/Saved/5E0J4DYSYB0DUPM0H3UFMJ504DDA7D4DDFADF25CC992A509D9B82A.tmp' to 'C:/Users/olbou/Documents/Unreal Projects/AmongUsLike/Content/__ExternalActors__/NewMap/8/6Q/5E0J4DYSYB0DUPM0H3UFMJ.uasset'
+[2024.12.09-16.55.57:740][550]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/NewMap/E/X4/I3YAKOIE9OZW8RGU76MLDU
+[2024.12.09-16.55.57:740][550]LogSavePackage: Moving 'C:/Users/olbou/Documents/Unreal Projects/AmongUsLike/Saved/I3YAKOIE9OZW8RGU76MLDUE85BC5084373CD89A80E32AF1192EDFD.tmp' to 'C:/Users/olbou/Documents/Unreal Projects/AmongUsLike/Content/__ExternalActors__/NewMap/E/X4/I3YAKOIE9OZW8RGU76MLDU.uasset'
+[2024.12.09-16.55.57:762][550]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/NewMap/2/3T/CK3DVSRDA9WTQU5TC2XO2V
+[2024.12.09-16.55.57:762][550]LogSavePackage: Moving 'C:/Users/olbou/Documents/Unreal Projects/AmongUsLike/Saved/CK3DVSRDA9WTQU5TC2XO2VE966459443FD723FA335B2B471CCDF89.tmp' to 'C:/Users/olbou/Documents/Unreal Projects/AmongUsLike/Content/__ExternalActors__/NewMap/2/3T/CK3DVSRDA9WTQU5TC2XO2V.uasset'
+[2024.12.09-16.55.57:782][550]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/NewMap/7/BH/JV2GOVBPB8GZ9MQUICHC9S
+[2024.12.09-16.55.57:783][550]LogSavePackage: Moving 'C:/Users/olbou/Documents/Unreal Projects/AmongUsLike/Saved/JV2GOVBPB8GZ9MQUICHC9S22039F5F4AA15F70728CC6B9007B0CDE.tmp' to 'C:/Users/olbou/Documents/Unreal Projects/AmongUsLike/Content/__ExternalActors__/NewMap/7/BH/JV2GOVBPB8GZ9MQUICHC9S.uasset'
+[2024.12.09-16.55.57:803][550]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/NewMap/6/AA/NURB0U7U9ZV4H4LX7FT8T2
+[2024.12.09-16.55.57:804][550]LogSavePackage: Moving 'C:/Users/olbou/Documents/Unreal Projects/AmongUsLike/Saved/NURB0U7U9ZV4H4LX7FT8T2077B944641EE114E621FEEB312974D3D.tmp' to 'C:/Users/olbou/Documents/Unreal Projects/AmongUsLike/Content/__ExternalActors__/NewMap/6/AA/NURB0U7U9ZV4H4LX7FT8T2.uasset'
+[2024.12.09-16.55.57:824][550]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/NewMap/0/S7/BULBFMUS7ADZJMH54QGDK9
+[2024.12.09-16.55.57:825][550]LogSavePackage: Moving 'C:/Users/olbou/Documents/Unreal Projects/AmongUsLike/Saved/BULBFMUS7ADZJMH54QGDK9B5762AFC4027CE003326FD971926AAFA.tmp' to 'C:/Users/olbou/Documents/Unreal Projects/AmongUsLike/Content/__ExternalActors__/NewMap/0/S7/BULBFMUS7ADZJMH54QGDK9.uasset'
+[2024.12.09-16.55.57:846][550]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/NewMap/5/M2/8TXEZSVIN8XJXFAAPYJ9PF
+[2024.12.09-16.55.57:847][550]LogSavePackage: Moving 'C:/Users/olbou/Documents/Unreal Projects/AmongUsLike/Saved/8TXEZSVIN8XJXFAAPYJ9PF3B722BCE48876463D51BD6995A74F643.tmp' to 'C:/Users/olbou/Documents/Unreal Projects/AmongUsLike/Content/__ExternalActors__/NewMap/5/M2/8TXEZSVIN8XJXFAAPYJ9PF.uasset'
+[2024.12.09-16.55.57:868][550]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/NewMap/C/MZ/99H285CLZ96HCTKT3S7S79
+[2024.12.09-16.55.57:868][550]LogSavePackage: Moving 'C:/Users/olbou/Documents/Unreal Projects/AmongUsLike/Saved/99H285CLZ96HCTKT3S7S79DB34518645899D313B8217A669F6FF90.tmp' to 'C:/Users/olbou/Documents/Unreal Projects/AmongUsLike/Content/__ExternalActors__/NewMap/C/MZ/99H285CLZ96HCTKT3S7S79.uasset'
+[2024.12.09-16.55.57:891][550]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/NewMap/B/AQ/TIHXLB5639NV4RM260YDTW
+[2024.12.09-16.55.57:892][550]LogSavePackage: Moving 'C:/Users/olbou/Documents/Unreal Projects/AmongUsLike/Saved/TIHXLB5639NV4RM260YDTW408A71E34AEF4DC333C16098E2C8344D.tmp' to 'C:/Users/olbou/Documents/Unreal Projects/AmongUsLike/Content/__ExternalActors__/NewMap/B/AQ/TIHXLB5639NV4RM260YDTW.uasset'
+[2024.12.09-16.55.57:913][550]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/NewMap/9/X7/GV76BBB2V0EFHV7ELK9A0Y
+[2024.12.09-16.55.57:913][550]LogSavePackage: Moving 'C:/Users/olbou/Documents/Unreal Projects/AmongUsLike/Saved/GV76BBB2V0EFHV7ELK9A0Y58F405AF4DBDA24CD45EEEAF583A95C4.tmp' to 'C:/Users/olbou/Documents/Unreal Projects/AmongUsLike/Content/__ExternalActors__/NewMap/9/X7/GV76BBB2V0EFHV7ELK9A0Y.uasset'
+[2024.12.09-16.55.57:935][550]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/NewMap/6/UX/1HONC7HVU91I909A4N80W2
+[2024.12.09-16.55.57:936][550]LogSavePackage: Moving 'C:/Users/olbou/Documents/Unreal Projects/AmongUsLike/Saved/1HONC7HVU91I909A4N80W2FD416E2348E19663A8A0E187CD83E526.tmp' to 'C:/Users/olbou/Documents/Unreal Projects/AmongUsLike/Content/__ExternalActors__/NewMap/6/UX/1HONC7HVU91I909A4N80W2.uasset'
+[2024.12.09-16.55.57:959][550]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/NewMap/A/R1/6S23OQXPMF10HYXLB9OEIP
+[2024.12.09-16.55.57:960][550]LogSavePackage: Moving 'C:/Users/olbou/Documents/Unreal Projects/AmongUsLike/Saved/6S23OQXPMF10HYXLB9OEIP2353D0954264B411202BAF885BDE0C43.tmp' to 'C:/Users/olbou/Documents/Unreal Projects/AmongUsLike/Content/__ExternalActors__/NewMap/A/R1/6S23OQXPMF10HYXLB9OEIP.uasset'
+[2024.12.09-16.55.57:980][550]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/NewMap/C/Y6/L8FAOYPHJNQSTCW3XMMSJT
+[2024.12.09-16.55.57:980][550]LogSavePackage: Moving 'C:/Users/olbou/Documents/Unreal Projects/AmongUsLike/Saved/L8FAOYPHJNQSTCW3XMMSJT5E9C2E3045578A3822F77EBC417D8ABF.tmp' to 'C:/Users/olbou/Documents/Unreal Projects/AmongUsLike/Content/__ExternalActors__/NewMap/C/Y6/L8FAOYPHJNQSTCW3XMMSJT.uasset'
+[2024.12.09-16.55.58:001][550]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/NewMap/A/6Q/T187Z8E2C6CPJLXCH06KRJ
+[2024.12.09-16.55.58:001][550]LogSavePackage: Moving 'C:/Users/olbou/Documents/Unreal Projects/AmongUsLike/Saved/T187Z8E2C6CPJLXCH06KRJ67B8E2414E416EBF3DED1BAF1B599FC7.tmp' to 'C:/Users/olbou/Documents/Unreal Projects/AmongUsLike/Content/__ExternalActors__/NewMap/A/6Q/T187Z8E2C6CPJLXCH06KRJ.uasset'
+[2024.12.09-16.55.58:022][550]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/NewMap/7/YH/J8JQXJ67F9KX47CCDA8ZMF
+[2024.12.09-16.55.58:023][550]LogSavePackage: Moving 'C:/Users/olbou/Documents/Unreal Projects/AmongUsLike/Saved/J8JQXJ67F9KX47CCDA8ZMFB6E0BE1B4E3AE90488155B8F795D6F52.tmp' to 'C:/Users/olbou/Documents/Unreal Projects/AmongUsLike/Content/__ExternalActors__/NewMap/7/YH/J8JQXJ67F9KX47CCDA8ZMF.uasset'
+[2024.12.09-16.55.58:053][550]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/NewMap/B/OZ/7UWDO77CF7TNVQ9BB75XCF
+[2024.12.09-16.55.58:053][550]LogSavePackage: Moving 'C:/Users/olbou/Documents/Unreal Projects/AmongUsLike/Saved/7UWDO77CF7TNVQ9BB75XCF0AF3DABD46EE2027443545AC07953DFB.tmp' to 'C:/Users/olbou/Documents/Unreal Projects/AmongUsLike/Content/__ExternalActors__/NewMap/B/OZ/7UWDO77CF7TNVQ9BB75XCF.uasset'
+[2024.12.09-16.55.58:074][550]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/NewMap/B/BV/STFWH78SWHO1BT3JB2S9GT
+[2024.12.09-16.55.58:075][550]LogSavePackage: Moving 'C:/Users/olbou/Documents/Unreal Projects/AmongUsLike/Saved/STFWH78SWHO1BT3JB2S9GT2EB9A951494698321DB0C1887A2C8C8C.tmp' to 'C:/Users/olbou/Documents/Unreal Projects/AmongUsLike/Content/__ExternalActors__/NewMap/B/BV/STFWH78SWHO1BT3JB2S9GT.uasset'
+[2024.12.09-16.55.58:089][550]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/NewMap/C/ZU/N5WZ7N63Q2DBG05ZT1Y94V
+[2024.12.09-16.55.58:090][550]LogSavePackage: Moving 'C:/Users/olbou/Documents/Unreal Projects/AmongUsLike/Saved/N5WZ7N63Q2DBG05ZT1Y94VBE0FA05B4CE4DBDD9B1F1BA3CDDBFE11.tmp' to 'C:/Users/olbou/Documents/Unreal Projects/AmongUsLike/Content/__ExternalActors__/NewMap/C/ZU/N5WZ7N63Q2DBG05ZT1Y94V.uasset'
+[2024.12.09-16.55.58:105][550]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/NewMap/5/RD/PZ5XNZU157V0GDAJAXC2DQ
+[2024.12.09-16.55.58:105][550]LogSavePackage: Moving 'C:/Users/olbou/Documents/Unreal Projects/AmongUsLike/Saved/PZ5XNZU157V0GDAJAXC2DQEEC065FC452DBD75272C76B6DB947D15.tmp' to 'C:/Users/olbou/Documents/Unreal Projects/AmongUsLike/Content/__ExternalActors__/NewMap/5/RD/PZ5XNZU157V0GDAJAXC2DQ.uasset'
+[2024.12.09-16.55.58:127][550]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/NewMap/B/PP/V9CAJRQOOCARULA8KSKFKF
+[2024.12.09-16.55.58:128][550]LogSavePackage: Moving 'C:/Users/olbou/Documents/Unreal Projects/AmongUsLike/Saved/V9CAJRQOOCARULA8KSKFKF9C7BC3B24F208D17CD260E962B79BB3C.tmp' to 'C:/Users/olbou/Documents/Unreal Projects/AmongUsLike/Content/__ExternalActors__/NewMap/B/PP/V9CAJRQOOCARULA8KSKFKF.uasset'
+[2024.12.09-16.55.58:150][550]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/NewMap/0/GP/29WASR1BMNC6IXHW8I5KZ8
+[2024.12.09-16.55.58:150][550]LogSavePackage: Moving 'C:/Users/olbou/Documents/Unreal Projects/AmongUsLike/Saved/29WASR1BMNC6IXHW8I5KZ855B385324FFBBD57508D59AECFCE2116.tmp' to 'C:/Users/olbou/Documents/Unreal Projects/AmongUsLike/Content/__ExternalActors__/NewMap/0/GP/29WASR1BMNC6IXHW8I5KZ8.uasset'
+[2024.12.09-16.55.58:171][550]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/NewMap/1/YN/85792LT2Y93I704I1JYP1K
+[2024.12.09-16.55.58:172][550]LogSavePackage: Moving 'C:/Users/olbou/Documents/Unreal Projects/AmongUsLike/Saved/85792LT2Y93I704I1JYP1KA576579E4824231BF175889272A00C32.tmp' to 'C:/Users/olbou/Documents/Unreal Projects/AmongUsLike/Content/__ExternalActors__/NewMap/1/YN/85792LT2Y93I704I1JYP1K.uasset'
+[2024.12.09-16.55.58:192][550]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/NewMap/0/BQ/39OTWHVDSI751PAH6731ID
+[2024.12.09-16.55.58:193][550]LogSavePackage: Moving 'C:/Users/olbou/Documents/Unreal Projects/AmongUsLike/Saved/39OTWHVDSI751PAH6731ID5F58AC844B70DF6D1C6EA9A2F870EAC8.tmp' to 'C:/Users/olbou/Documents/Unreal Projects/AmongUsLike/Content/__ExternalActors__/NewMap/0/BQ/39OTWHVDSI751PAH6731ID.uasset'
+[2024.12.09-16.55.58:215][550]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/NewMap/E/SK/3B5158OKASMIKGFDZC9KRF
+[2024.12.09-16.55.58:215][550]LogSavePackage: Moving 'C:/Users/olbou/Documents/Unreal Projects/AmongUsLike/Saved/3B5158OKASMIKGFDZC9KRFD6BF14274985F03F9BD9C081E67E0BA2.tmp' to 'C:/Users/olbou/Documents/Unreal Projects/AmongUsLike/Content/__ExternalActors__/NewMap/E/SK/3B5158OKASMIKGFDZC9KRF.uasset'
+[2024.12.09-16.55.58:235][550]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/NewMap/9/TG/JJD8SHJCMNFNMC34COATAM
+[2024.12.09-16.55.58:236][550]LogSavePackage: Moving 'C:/Users/olbou/Documents/Unreal Projects/AmongUsLike/Saved/JJD8SHJCMNFNMC34COATAM8D6B4656461D31005D9465ACC247E639.tmp' to 'C:/Users/olbou/Documents/Unreal Projects/AmongUsLike/Content/__ExternalActors__/NewMap/9/TG/JJD8SHJCMNFNMC34COATAM.uasset'
+[2024.12.09-16.55.58:252][550]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/NewMap/B/09/QCU8K2REN785K74C0JAHL8
+[2024.12.09-16.55.58:252][550]LogSavePackage: Moving 'C:/Users/olbou/Documents/Unreal Projects/AmongUsLike/Saved/QCU8K2REN785K74C0JAHL832B1F7A54187DD4E66A765B46CC645A7.tmp' to 'C:/Users/olbou/Documents/Unreal Projects/AmongUsLike/Content/__ExternalActors__/NewMap/B/09/QCU8K2REN785K74C0JAHL8.uasset'
+[2024.12.09-16.55.58:267][550]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/NewMap/A/DN/K5XHNT2TJPQ6HM9TN0HG8R
+[2024.12.09-16.55.58:268][550]LogSavePackage: Moving 'C:/Users/olbou/Documents/Unreal Projects/AmongUsLike/Saved/K5XHNT2TJPQ6HM9TN0HG8R1F0E9C7F418A806FAE873EA6B85F2416.tmp' to 'C:/Users/olbou/Documents/Unreal Projects/AmongUsLike/Content/__ExternalActors__/NewMap/A/DN/K5XHNT2TJPQ6HM9TN0HG8R.uasset'
+[2024.12.09-16.55.58:288][550]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/NewMap/E/HU/QBOG0EUDUJ3I7CKDLU6SM5
+[2024.12.09-16.55.58:289][550]LogSavePackage: Moving 'C:/Users/olbou/Documents/Unreal Projects/AmongUsLike/Saved/QBOG0EUDUJ3I7CKDLU6SM5343E90394FAE0505FE90478B54EBF7A8.tmp' to 'C:/Users/olbou/Documents/Unreal Projects/AmongUsLike/Content/__ExternalActors__/NewMap/E/HU/QBOG0EUDUJ3I7CKDLU6SM5.uasset'
+[2024.12.09-16.55.58:311][550]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/NewMap/3/QY/FL16ITLR22643N9B35THAR
+[2024.12.09-16.55.58:312][550]LogSavePackage: Moving 'C:/Users/olbou/Documents/Unreal Projects/AmongUsLike/Saved/FL16ITLR22643N9B35THAR959CEFBB4D21088968C0D6A521A86B49.tmp' to 'C:/Users/olbou/Documents/Unreal Projects/AmongUsLike/Content/__ExternalActors__/NewMap/3/QY/FL16ITLR22643N9B35THAR.uasset'
+[2024.12.09-16.55.58:333][550]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/NewMap/3/DX/JANFZ62JMG0U1Z3UNCQVKV
+[2024.12.09-16.55.58:333][550]LogSavePackage: Moving 'C:/Users/olbou/Documents/Unreal Projects/AmongUsLike/Saved/JANFZ62JMG0U1Z3UNCQVKV0830C0BF484006B899144CBB1A5F1B27.tmp' to 'C:/Users/olbou/Documents/Unreal Projects/AmongUsLike/Content/__ExternalActors__/NewMap/3/DX/JANFZ62JMG0U1Z3UNCQVKV.uasset'
+[2024.12.09-16.55.58:353][550]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/NewMap/9/53/CHPLQ79FFGJWC3VACZJA90
+[2024.12.09-16.55.58:354][550]LogSavePackage: Moving 'C:/Users/olbou/Documents/Unreal Projects/AmongUsLike/Saved/CHPLQ79FFGJWC3VACZJA901CB46FCB49A782E91DE723AD743D35A2.tmp' to 'C:/Users/olbou/Documents/Unreal Projects/AmongUsLike/Content/__ExternalActors__/NewMap/9/53/CHPLQ79FFGJWC3VACZJA90.uasset'
+[2024.12.09-16.55.58:375][550]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/NewMap/2/4X/X4NPSX8ZUWI1DPH52YEUUP
+[2024.12.09-16.55.58:376][550]LogSavePackage: Moving 'C:/Users/olbou/Documents/Unreal Projects/AmongUsLike/Saved/X4NPSX8ZUWI1DPH52YEUUPB82525A04C3576D36154ACAB7B9EF0C0.tmp' to 'C:/Users/olbou/Documents/Unreal Projects/AmongUsLike/Content/__ExternalActors__/NewMap/2/4X/X4NPSX8ZUWI1DPH52YEUUP.uasset'
+[2024.12.09-16.55.58:399][550]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/NewMap/D/T6/ELJ3HI994B42IQIWQEZNGD
+[2024.12.09-16.55.58:400][550]LogSavePackage: Moving 'C:/Users/olbou/Documents/Unreal Projects/AmongUsLike/Saved/ELJ3HI994B42IQIWQEZNGDDFFA871749A8C3DC1E0BB59C76E27EC5.tmp' to 'C:/Users/olbou/Documents/Unreal Projects/AmongUsLike/Content/__ExternalActors__/NewMap/D/T6/ELJ3HI994B42IQIWQEZNGD.uasset'
+[2024.12.09-16.55.58:421][550]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/NewMap/4/Q7/HYGURXU7M62N8WAUIXLWPQ
+[2024.12.09-16.55.58:422][550]LogSavePackage: Moving 'C:/Users/olbou/Documents/Unreal Projects/AmongUsLike/Saved/HYGURXU7M62N8WAUIXLWPQ057F8A4A4F47B55E897AC1847CA09FC9.tmp' to 'C:/Users/olbou/Documents/Unreal Projects/AmongUsLike/Content/__ExternalActors__/NewMap/4/Q7/HYGURXU7M62N8WAUIXLWPQ.uasset'
+[2024.12.09-16.55.58:443][550]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/NewMap/0/0E/E7UFHHQZ7B8TLAL6Y74JRC
+[2024.12.09-16.55.58:444][550]LogSavePackage: Moving 'C:/Users/olbou/Documents/Unreal Projects/AmongUsLike/Saved/E7UFHHQZ7B8TLAL6Y74JRCC7CC95C440064FC5B02BAD9C42553910.tmp' to 'C:/Users/olbou/Documents/Unreal Projects/AmongUsLike/Content/__ExternalActors__/NewMap/0/0E/E7UFHHQZ7B8TLAL6Y74JRC.uasset'
+[2024.12.09-16.55.58:467][550]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/NewMap/4/OT/Y23P0KHN1XII71UX7D1H8Q
+[2024.12.09-16.55.58:467][550]LogSavePackage: Moving 'C:/Users/olbou/Documents/Unreal Projects/AmongUsLike/Saved/Y23P0KHN1XII71UX7D1H8Q3BAF5D1F480070900478A8BAAF23936A.tmp' to 'C:/Users/olbou/Documents/Unreal Projects/AmongUsLike/Content/__ExternalActors__/NewMap/4/OT/Y23P0KHN1XII71UX7D1H8Q.uasset'
+[2024.12.09-16.55.58:488][550]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/NewMap/3/AW/90QVEWVNXY6N07CS9SHQPM
+[2024.12.09-16.55.58:489][550]LogSavePackage: Moving 'C:/Users/olbou/Documents/Unreal Projects/AmongUsLike/Saved/90QVEWVNXY6N07CS9SHQPM97B3B9944802863413F8D4AF32AC8A26.tmp' to 'C:/Users/olbou/Documents/Unreal Projects/AmongUsLike/Content/__ExternalActors__/NewMap/3/AW/90QVEWVNXY6N07CS9SHQPM.uasset'
+[2024.12.09-16.55.58:510][550]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/NewMap/A/36/SPYD0PSGU4M3NK7DI5RDRM
+[2024.12.09-16.55.58:511][550]LogSavePackage: Moving 'C:/Users/olbou/Documents/Unreal Projects/AmongUsLike/Saved/SPYD0PSGU4M3NK7DI5RDRM47324A99490CD6A0F258AE84078FD760.tmp' to 'C:/Users/olbou/Documents/Unreal Projects/AmongUsLike/Content/__ExternalActors__/NewMap/A/36/SPYD0PSGU4M3NK7DI5RDRM.uasset'
+[2024.12.09-16.55.58:532][550]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/NewMap/6/8V/MRZ7RQN5KANFM03I7EKRCC
+[2024.12.09-16.55.58:532][550]LogSavePackage: Moving 'C:/Users/olbou/Documents/Unreal Projects/AmongUsLike/Saved/MRZ7RQN5KANFM03I7EKRCC2FC72A3D40609555057DB184D18E676A.tmp' to 'C:/Users/olbou/Documents/Unreal Projects/AmongUsLike/Content/__ExternalActors__/NewMap/6/8V/MRZ7RQN5KANFM03I7EKRCC.uasset'
+[2024.12.09-16.55.58:553][550]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/NewMap/7/ZT/XQN8LZWIDWMWIMOBUZOJDH
+[2024.12.09-16.55.58:553][550]LogSavePackage: Moving 'C:/Users/olbou/Documents/Unreal Projects/AmongUsLike/Saved/XQN8LZWIDWMWIMOBUZOJDHBC0217B54895708ECDFD8C82E6B3DE52.tmp' to 'C:/Users/olbou/Documents/Unreal Projects/AmongUsLike/Content/__ExternalActors__/NewMap/7/ZT/XQN8LZWIDWMWIMOBUZOJDH.uasset'
+[2024.12.09-16.55.58:575][550]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/NewMap/B/OQ/FH4UWQ2MQA5KPUZVXS23LJ
+[2024.12.09-16.55.58:575][550]LogSavePackage: Moving 'C:/Users/olbou/Documents/Unreal Projects/AmongUsLike/Saved/FH4UWQ2MQA5KPUZVXS23LJEAA15BD9470C0A0B3F0015BCED54F2F2.tmp' to 'C:/Users/olbou/Documents/Unreal Projects/AmongUsLike/Content/__ExternalActors__/NewMap/B/OQ/FH4UWQ2MQA5KPUZVXS23LJ.uasset'
+[2024.12.09-16.55.58:598][550]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/NewMap/5/DJ/PLU0RE738EMG7CF7VC8D9S
+[2024.12.09-16.55.58:598][550]LogSavePackage: Moving 'C:/Users/olbou/Documents/Unreal Projects/AmongUsLike/Saved/PLU0RE738EMG7CF7VC8D9SEADDD0174450F2AB1A48478CC7A1D30E.tmp' to 'C:/Users/olbou/Documents/Unreal Projects/AmongUsLike/Content/__ExternalActors__/NewMap/5/DJ/PLU0RE738EMG7CF7VC8D9S.uasset'
+[2024.12.09-16.55.58:620][550]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/NewMap/4/D8/YMDE4WERKLNXIT8TVTH5OW
+[2024.12.09-16.55.58:621][550]LogSavePackage: Moving 'C:/Users/olbou/Documents/Unreal Projects/AmongUsLike/Saved/YMDE4WERKLNXIT8TVTH5OW98A9EA6F4D7875D45CD5259B425C0CD8.tmp' to 'C:/Users/olbou/Documents/Unreal Projects/AmongUsLike/Content/__ExternalActors__/NewMap/4/D8/YMDE4WERKLNXIT8TVTH5OW.uasset'
+[2024.12.09-16.55.58:642][550]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/NewMap/D/WK/NERX0MWYRICL228ZB8J0QW
+[2024.12.09-16.55.58:643][550]LogSavePackage: Moving 'C:/Users/olbou/Documents/Unreal Projects/AmongUsLike/Saved/NERX0MWYRICL228ZB8J0QW2EAF1409496FBF14B0838386FBB0DC82.tmp' to 'C:/Users/olbou/Documents/Unreal Projects/AmongUsLike/Content/__ExternalActors__/NewMap/D/WK/NERX0MWYRICL228ZB8J0QW.uasset'
+[2024.12.09-16.55.58:664][550]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/NewMap/3/6N/VZU403KFJ6UJQ2M3VY6736
+[2024.12.09-16.55.58:664][550]LogSavePackage: Moving 'C:/Users/olbou/Documents/Unreal Projects/AmongUsLike/Saved/VZU403KFJ6UJQ2M3VY6736EF8433D245F10F969E3DB4B5C7766D8F.tmp' to 'C:/Users/olbou/Documents/Unreal Projects/AmongUsLike/Content/__ExternalActors__/NewMap/3/6N/VZU403KFJ6UJQ2M3VY6736.uasset'
+[2024.12.09-16.55.58:685][550]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/NewMap/C/H2/M58JIDBQC2JEOWYFQ17JSY
+[2024.12.09-16.55.58:685][550]LogSavePackage: Moving 'C:/Users/olbou/Documents/Unreal Projects/AmongUsLike/Saved/M58JIDBQC2JEOWYFQ17JSYFED23A79415AA1003EEC738C4C2982BB.tmp' to 'C:/Users/olbou/Documents/Unreal Projects/AmongUsLike/Content/__ExternalActors__/NewMap/C/H2/M58JIDBQC2JEOWYFQ17JSY.uasset'
+[2024.12.09-16.55.58:706][550]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/NewMap/1/DX/KXAGD7OP6IEQ3K8LWI86RL
+[2024.12.09-16.55.58:706][550]LogSavePackage: Moving 'C:/Users/olbou/Documents/Unreal Projects/AmongUsLike/Saved/KXAGD7OP6IEQ3K8LWI86RL43E9C5BC41BD57FA1F11CA96ACBD6B2D.tmp' to 'C:/Users/olbou/Documents/Unreal Projects/AmongUsLike/Content/__ExternalActors__/NewMap/1/DX/KXAGD7OP6IEQ3K8LWI86RL.uasset'
+[2024.12.09-16.55.58:728][550]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/NewMap/5/Q5/9034HM4Y3YU11DE4XNPRA9
+[2024.12.09-16.55.58:729][550]LogSavePackage: Moving 'C:/Users/olbou/Documents/Unreal Projects/AmongUsLike/Saved/9034HM4Y3YU11DE4XNPRA956CAA47C447F14F13781309CA826B853.tmp' to 'C:/Users/olbou/Documents/Unreal Projects/AmongUsLike/Content/__ExternalActors__/NewMap/5/Q5/9034HM4Y3YU11DE4XNPRA9.uasset'
+[2024.12.09-16.55.58:749][550]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/NewMap/1/R1/OHRQN7RF5THM8Z6O6262I4
+[2024.12.09-16.55.58:750][550]LogSavePackage: Moving 'C:/Users/olbou/Documents/Unreal Projects/AmongUsLike/Saved/OHRQN7RF5THM8Z6O6262I482C38A044697A1B7DCCC8E854AE7F95F.tmp' to 'C:/Users/olbou/Documents/Unreal Projects/AmongUsLike/Content/__ExternalActors__/NewMap/1/R1/OHRQN7RF5THM8Z6O6262I4.uasset'
+[2024.12.09-16.55.58:771][550]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/NewMap/6/GW/TAVO56E9B1HVH1F45RLBIA
+[2024.12.09-16.55.58:771][550]LogSavePackage: Moving 'C:/Users/olbou/Documents/Unreal Projects/AmongUsLike/Saved/TAVO56E9B1HVH1F45RLBIA153CE6ED449CD03E546A79A369069B89.tmp' to 'C:/Users/olbou/Documents/Unreal Projects/AmongUsLike/Content/__ExternalActors__/NewMap/6/GW/TAVO56E9B1HVH1F45RLBIA.uasset'
+[2024.12.09-16.55.58:792][550]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/NewMap/8/ED/4G06FUR85LXRX1UCMOAFBE
+[2024.12.09-16.55.58:792][550]LogSavePackage: Moving 'C:/Users/olbou/Documents/Unreal Projects/AmongUsLike/Saved/4G06FUR85LXRX1UCMOAFBEB92B571B445A08C64B9CC4B8893D8CAE.tmp' to 'C:/Users/olbou/Documents/Unreal Projects/AmongUsLike/Content/__ExternalActors__/NewMap/8/ED/4G06FUR85LXRX1UCMOAFBE.uasset'
+[2024.12.09-16.55.58:813][550]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/NewMap/8/FF/4NBZKC5PVQODH9SVSYPY1E
+[2024.12.09-16.55.58:814][550]LogSavePackage: Moving 'C:/Users/olbou/Documents/Unreal Projects/AmongUsLike/Saved/4NBZKC5PVQODH9SVSYPY1E8BA9C49641C1A13F394B2989B53D9EE9.tmp' to 'C:/Users/olbou/Documents/Unreal Projects/AmongUsLike/Content/__ExternalActors__/NewMap/8/FF/4NBZKC5PVQODH9SVSYPY1E.uasset'
+[2024.12.09-16.55.58:834][550]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/NewMap/8/KQ/APFM7ONOEVP1TBHZZ5VTDA
+[2024.12.09-16.55.58:835][550]LogSavePackage: Moving 'C:/Users/olbou/Documents/Unreal Projects/AmongUsLike/Saved/APFM7ONOEVP1TBHZZ5VTDA09D7EC544FDD8EADC8D12E9FB5367EBE.tmp' to 'C:/Users/olbou/Documents/Unreal Projects/AmongUsLike/Content/__ExternalActors__/NewMap/8/KQ/APFM7ONOEVP1TBHZZ5VTDA.uasset'
+[2024.12.09-16.55.58:855][550]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/NewMap/0/2Y/UYA7A5HTQTJSRWJ4MK2WT6
+[2024.12.09-16.55.58:855][550]LogSavePackage: Moving 'C:/Users/olbou/Documents/Unreal Projects/AmongUsLike/Saved/UYA7A5HTQTJSRWJ4MK2WT68BD2CD5D461FC6E41367A4A5D5C37886.tmp' to 'C:/Users/olbou/Documents/Unreal Projects/AmongUsLike/Content/__ExternalActors__/NewMap/0/2Y/UYA7A5HTQTJSRWJ4MK2WT6.uasset'
+[2024.12.09-16.55.58:857][550]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/NewBlueprint] ([2] browsable assets)...
+[2024.12.09-16.55.58:857][550]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/NewBlueprint]
+[2024.12.09-16.55.58:857][550]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/NewBlueprint" FILE="C:/Users/olbou/Documents/Unreal Projects/AmongUsLike/Content/Blueprints/NewBlueprint.uasset" SILENT=true
+[2024.12.09-16.55.58:860][550]LogSavePackage: Moving output files for package: /Game/Blueprints/NewBlueprint
+[2024.12.09-16.55.58:860][550]LogSavePackage: Moving 'C:/Users/olbou/Documents/Unreal Projects/AmongUsLike/Saved/NewBlueprint65EAA1B04696029AD23042AC3F50F6CF.tmp' to 'C:/Users/olbou/Documents/Unreal Projects/AmongUsLike/Content/Blueprints/NewBlueprint.uasset'
+[2024.12.09-16.55.58:870][550]LogFileHelpers: InternalPromptForCheckoutAndSave took 2.98 sec (total: 7.73 sec)
+[2024.12.09-16.55.58:934][550]LogStall: Shutdown...
+[2024.12.09-16.55.58:934][550]LogStall: Shutdown complete.
+[2024.12.09-16.55.58:971][550]LogSlate: Window 'AmongUsLike - Unreal Editor' being destroyed
+[2024.12.09-16.55.59:092][550]LogContentValidation: Display: Starting to validate 66 assets
+[2024.12.09-16.55.59:093][550]LogContentValidation: Enabled validators:
+[2024.12.09-16.55.59:093][550]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2024.12.09-16.55.59:093][550]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2024.12.09-16.55.59:093][550]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2024.12.09-16.55.59:093][550]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2024.12.09-16.55.59:093][550]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2024.12.09-16.55.59:093][550]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2024.12.09-16.55.59:093][550]AssetCheck: /Game/NewMap Validation de la ressource
+[2024.12.09-16.55.59:093][550]AssetCheck: /Game/Blueprints/NewBlueprint Validation de la ressource
+[2024.12.09-16.55.59:096][550]LogAutomationController: Ignoring very large delta of 6.64 seconds in calls to FAutomationControllerManager::Tick() and not penalizing unresponsive tests
+[2024.12.09-16.55.59:097][550]Cmd: QUIT_EDITOR
+[2024.12.09-16.55.59:097][550]LogCore: Engine exit requested (reason: UUnrealEdEngine::CloseEditor())
+[2024.12.09-16.55.59:100][551]LogCore: Engine exit requested (reason: EngineExit() was called; note: exit was already requested)
+[2024.12.09-16.55.59:100][551]LogStaticMesh: Abandoning remaining async distance field tasks for shutdown
+[2024.12.09-16.55.59:101][551]LogStaticMesh: Abandoning remaining async card representation tasks for shutdown
+[2024.12.09-16.55.59:110][551]LogWorld: UWorld::CleanupWorld for NewMap, bSessionEnded=true, bCleanupResources=true
+[2024.12.09-16.55.59:110][551]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.12.09-16.55.59:111][551]LogWorldPartition: UWorldPartition::Uninitialize : World = /Game/NewMap.NewMap
+[2024.12.09-16.55.59:123][551]LogStylusInput: Shutting down StylusInput subsystem.
+[2024.12.09-16.55.59:123][551]LogLevelSequenceEditor: LevelSequenceEditor subsystem deinitialized.
+[2024.12.09-16.55.59:125][551]LogWorld: UWorld::CleanupWorld for World_0, bSessionEnded=true, bCleanupResources=true
+[2024.12.09-16.55.59:125][551]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.12.09-16.55.59:128][551]LogWorld: UWorld::CleanupWorld for World_1, bSessionEnded=true, bCleanupResources=true
+[2024.12.09-16.55.59:128][551]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.12.09-16.55.59:131][551]LogStudioTelemetry: Ended StudioTelemetry Session
+[2024.12.09-16.55.59:138][551]LogAnalytics: Display: [UEEditor.Rocket.Release] Destroying ET Analytics provider
+[2024.12.09-16.55.59:138][551]LogAnalytics: Display: [UEEditor.Rocket.Release] Ended ET Analytics provider session
+[2024.12.09-16.55.59:138][551]LogAnalytics: Display: [UEEditor.Rocket.Release] Destroyed ET Analytics provider
+[2024.12.09-16.55.59:139][551]LogAudio: Display: Beginning Audio Device Manager Shutdown (Module: AudioMixerXAudio2)...
+[2024.12.09-16.55.59:139][551]LogAudio: Display: Destroying 1 Remaining Audio Device(s)...
+[2024.12.09-16.55.59:139][551]LogAudio: Display: Audio Device unregistered from world 'NewMap'.
+[2024.12.09-16.55.59:139][551]LogAudio: Display: Shutting down audio device while 1 references to it are still alive. For more information, compile with INSTRUMENT_AUDIODEVICE_HANDLES.
+[2024.12.09-16.55.59:139][551]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=1
+[2024.12.09-16.55.59:141][551]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=1
+[2024.12.09-16.55.59:148][551]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID -1
+[2024.12.09-16.55.59:148][551]LogAudio: Display: Audio Device Manager Shutdown
+[2024.12.09-16.55.59:148][551]LogWindowsTextInputMethodSystem: Activated input method: Français (France) - (Keyboard).
+[2024.12.09-16.55.59:150][551]LogSlate: Slate User Destroyed.  User Index 0, Is Virtual User: 0
+[2024.12.09-16.55.59:150][551]LogExit: Preparing to exit.
+[2024.12.09-16.55.59:182][551]LogUObjectHash: Compacting FUObjectHashTables data took   1.14ms
+[2024.12.09-16.55.59:186][551]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/add_controls_for_selected_PY.add_controls_for_selected_options' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2024.12.09-16.55.59:186][551]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/add_controls_for_selected_PY.add_controls_for_selected' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2024.12.09-16.55.59:186][551]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/add_null_above_selected_PY.add_null_above_selected' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2024.12.09-16.55.59:186][551]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/align_items_PY.align_translation_rotation' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2024.12.09-16.55.59:186][551]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/align_items_PY.align_translation_all' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2024.12.09-16.55.59:186][551]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/align_items_PY.align_translation_x' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2024.12.09-16.55.59:186][551]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/align_items_PY.align_translation_y' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2024.12.09-16.55.59:186][551]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/align_items_PY.align_translation_z' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2024.12.09-16.55.59:186][551]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/align_items_PY.align_rotation' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2024.12.09-16.55.59:186][551]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/align_items_PY.align_scale' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2024.12.09-16.55.59:186][551]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/rename_items_PY.search_replace_name_dialog' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2024.12.09-16.55.59:186][551]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/rename_items_PY.search_replace_entry' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2024.12.09-16.55.59:186][551]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/rename_items_PY.add_prefix_dialog' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2024.12.09-16.55.59:186][551]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/rename_items_PY.add_prefix_entry' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2024.12.09-16.55.59:186][551]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/rename_items_PY.add_suffix_dialog' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2024.12.09-16.55.59:186][551]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/rename_items_PY.add_suffix_entry' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2024.12.09-16.55.59:186][551]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/rename_items_PY.do_rename_dialog' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2024.12.09-16.55.59:186][551]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/rename_items_PY.do_rename_entry' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2024.12.09-16.55.59:186][551]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/set_bone_reference_pose_PY.set_bone_reference_pose' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2024.12.09-16.55.59:186][551]LogPython: Display: Object '/ControlRig/Python/ControlRigWorkflows/workflow_fbik_import_ik_rig_PY.import_ik_rig_options' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2024.12.09-16.55.59:186][551]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/add_controls_for_selected_PY.ControlOutputFormat' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2024.12.09-16.55.59:480][551]LogEditorDataStorage: Deinitializing
+[2024.12.09-16.55.59:591][551]LogDemo: Cleaned up 0 splitscreen connections, owner deletion: enabled
+[2024.12.09-16.55.59:607][551]LogExit: Editor shut down
+[2024.12.09-16.55.59:608][551]LogExit: Transaction tracking system shut down
+[2024.12.09-16.55.59:733][551]LogExit: Object subsystem successfully closed.
+[2024.12.09-16.55.59:835][551]LogShaderCompilers: Display: Shaders left to compile 0
+[2024.12.09-16.55.59:906][551]LogMemoryProfiler: Shutdown
+[2024.12.09-16.55.59:906][551]LogNetworkingProfiler: Shutdown
+[2024.12.09-16.55.59:906][551]LoadingProfiler: Shutdown
+[2024.12.09-16.55.59:906][551]LogTimingProfiler: Shutdown
+[2024.12.09-16.56.00:242][551]LogChaosDD: Chaos Debug Draw Shutdown
+[2024.12.09-16.56.00:242][551]LogStudioTelemetry: Display: Shutdown StudioTelemetry Module
+[2024.12.09-16.56.00:242][551]LogNFORDenoise: NFORDenoise function shutting down
+[2024.12.09-16.56.00:281][551]LogHttp: Warning: [FHttpManager::Shutdown] Unbinding delegates for 1 outstanding Http Requests:
+[2024.12.09-16.56.00:281][551]LogHttp: Warning: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B11884763-4DD5-DD70-060A-C48A4FAE802B%7D&AppID=UEEditor.Rocket.Release&AppVersion=5.5.0-37670630%2B%2B%2BUE5%2BRelease-5.5&UserID=a08487f24be42b57a53b5e8331d21ac8%7C8442a894ebfc40c7b25d6e0764e471e6%7C77692cc5-1628-4cca-8a85-ec474517038f&AppEnvironment=datacollector-binary&UploadType=eteventstream] refs=[2] status=Processing
+[2024.12.09-16.56.00:848][551]LogEOSSDK: FEOSSDKManager::Shutdown EOS_Shutdown Result=[EOS_Success]
+[2024.12.09-16.56.00:849][551]RenderDocPlugin: plugin has been unloaded.
+[2024.12.09-16.56.00:851][551]LogIris: FNetObjectFactoryRegistry::UnregisterFactory is unregistering factory: None name: NetActorFactory id: 0
+[2024.12.09-16.56.00:851][551]LogIris: FNetObjectFactoryRegistry::UnregisterFactory is unregistering factory: None name: NetSubObjectFactory id: 1
+[2024.12.09-16.56.00:851][551]LogPakFile: Destroying PakPlatformFile
+[2024.12.09-16.56.01:146][551]LogD3D12RHI: ~FD3D12DynamicRHI
+[2024.12.09-16.56.01:223][551]LogExit: Exiting.
+[2024.12.09-16.56.01:251][551]Log file closed, 12/09/24 17:56:01
